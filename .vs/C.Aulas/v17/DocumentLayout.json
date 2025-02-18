@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DA6785-FF6E-44E1-AB3C-3C4116A83103}|Aula01\\Aula01.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aula01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A0DA6785-FF6E-44E1-AB3C-3C4116A83103}|Aula01\\Aula01.csproj|solutionrelative:aula01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DA6785-FF6E-44E1-AB3C-3C4116A83103}|Aula01\\Aula01.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aula01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0DA6785-FF6E-44E1-AB3C-3C4116A83103}|Aula01\\Aula01.csproj|solutionrelative:aula01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DA6785-FF6E-44E1-AB3C-3C4116A83103}|Aula01\\Aula01.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aula01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0DA6785-FF6E-44E1-AB3C-3C4116A83103}|Aula01\\Aula01.csproj|solutionrelative:aula01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Program.cs",
+              "RelativeDocumentMoniker": "Aula01\\Program.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Program.cs",
+              "RelativeToolTip": "Aula01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:54:49.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Form1.cs",
+              "RelativeDocumentMoniker": "Aula01\\Form1.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Form1.cs",
+              "RelativeToolTip": "Aula01\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:53:38.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Form1.cs",
+              "RelativeDocumentMoniker": "Aula01\\Form1.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Aula01\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:51:32.795Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

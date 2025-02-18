@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joseleonardo\\ProjetosDev\\C#Aulas\\Aula01\\Aula01.csproj": {}
+    "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Aula01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joseleonardo\\ProjetosDev\\C#Aulas\\Aula01\\Aula01.csproj": {
+    "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Aula01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joseleonardo\\ProjetosDev\\C#Aulas\\Aula01\\Aula01.csproj",
+        "projectUniqueName": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Aula01.csproj",
         "projectName": "Aula01",
-        "projectPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C#Aulas\\Aula01\\Aula01.csproj",
+        "projectPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\Aula01.csproj",
         "packagesPath": "C:\\Users\\joseleonardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C#Aulas\\Aula01\\obj\\",
+        "outputPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\Aula01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -33,11 +33,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 587);
+            button1.Location = new Point(12, 534);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Sair";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -45,7 +45,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1149, 628);
+            ClientSize = new Size(1030, 575);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
