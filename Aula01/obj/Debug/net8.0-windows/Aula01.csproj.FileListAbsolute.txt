@@ -1,0 +1,17 @@
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\bin\Debug\net8.0-windows\Aula01.exe
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\bin\Debug\net8.0-windows\Aula01.deps.json
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\bin\Debug\net8.0-windows\Aula01.runtimeconfig.json
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\bin\Debug\net8.0-windows\Aula01.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\bin\Debug\net8.0-windows\Aula01.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.Form1.resources
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.csproj.GenerateResource.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.AssemblyInfoInputs.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.AssemblyInfo.cs
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.csproj.CoreCompileInputs.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.sourcelink.json
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\refint\Aula01.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\Aula01.genruntimeconfig.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\Aula01\obj\Debug\net8.0-windows\ref\Aula01.dll
