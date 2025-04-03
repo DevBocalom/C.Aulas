@@ -1,0 +1,10 @@
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\bin\Debug\FormularioVenda.exe.config
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\bin\Debug\FormularioVenda.exe
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\bin\Debug\FormularioVenda.pdb
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.csproj.AssemblyReference.cache
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.Form1.resources
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.Properties.Resources.resources
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.csproj.GenerateResource.cache
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.csproj.CoreCompileInputs.cache
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.exe
+C:\Users\joseleonardo\source\repos\FormularioVenda\FormularioVenda\obj\Debug\FormularioVenda.pdb
