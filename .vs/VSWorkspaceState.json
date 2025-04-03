@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\AtividadeAvaliativa",
+    "\\AtividadeAvaliativa\\WindowsFormsApp1",
+    "\\AtividadeAvaliativa\\WindowsFormsApp1\\WindowsFormsApp1",
     "\\Aula01"
   ],
-  "SelectedNode": "\\Aula01\\Form1.cs",
+  "SelectedNode": "\\Aula01",
   "PreviewInSolutionExplorer": false
 }
