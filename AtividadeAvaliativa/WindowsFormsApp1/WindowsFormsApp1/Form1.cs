@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace WindowsFormsApp1
 {
@@ -68,19 +69,66 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void comandaPizzas()
+        List<string> itensSelecionados = new List<string>();
+        Dictionary<string, decimal> precos = new Dictionary<string, decimal>
         {
-            List<string> pizzasSelec = new List<string>();
+            { "Mussarela", 49.00m },
+            { "Portuguesa", 55.00m },
+            { "Quatro Queijos", 60.00m },
+            { "Calabresa", 52.00m },
+            { "Chocolate com Morango", 55.00m }
+        };
+        decimal taxaEntrega = 5.00m;
+        bool isDelivery = false;
+        private void AttItemComanda(CheckBox check, string item)
+        {
+            if (check.Checked)
+            {
+                if (!itensSelecionados.Contains(item))
+                    itensSelecionados.Add(item);
+            }
+            else
+            {
+                itensSelecionados.Remove(item);
+            }
 
-            if (cbMussarela.Checked == true)
-
-                pizzasSelec.Add("Mussarela");
-                foreach (string pizza in pizzasSelec)
-                {   
-                    lbComanda.Items.Add(pizza);
-                }
-            else { }
+            AtualizaComanda();
         }
+
+        private void AtualizaComanda()
+        {
+            lbComanda.Items.Clear();
+            decimal total = 0;
+
+            lbComanda.Items.Add("======= PIZZARIA EXPRESS =======");
+            lbComanda.Items.Add("Item                         Preço");
+            lbComanda.Items.Add("--------------------------------------------------------------------");
+
+            foreach (string item in itensSelecionados)
+            {
+                decimal preco = precos[item];
+                string linha = $"{item.PadRight(28)} R$ {preco:0.00}";
+                lbComanda.Items.Add(linha);
+                total += preco;
+            }
+            if (isDelivery)
+            {
+                lbComanda.Items.Add("--------------------\n");
+                lbComanda.Items.Add($"Entrega (Delivery)          R$ {taxaEntrega:0.00}\n");
+                total += taxaEntrega;
+            }
+            else
+            {
+                lbComanda.Items.Add("--------------------\n");
+                lbComanda.Items.Add("Retirada no Balcão\n");
+            }
+
+            lbComanda.Items.Add("--------------------------------------------------------------------");
+            lbComanda.Items.Add($"Total:                      R$ {total:0.00}");
+            lbComanda.Items.Add("==================================");
+        }
+
+
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
             calcularVenda();   
@@ -88,7 +136,45 @@ namespace WindowsFormsApp1
 
         private void cbMussarela_CheckedChanged(object sender, EventArgs e)
         {
-            comandaPizzas();
+            AttItemComanda(cbMussarela, "Mussarela");
+        }
+
+        private void cbPortuguesa_CheckedChanged(object sender, EventArgs e)
+        {
+            AttItemComanda(cbPortuguesa, "Portuguesa");
+        }
+
+        private void cbQuatroQueijos_CheckedChanged(object sender, EventArgs e)
+        {
+            AttItemComanda(cbQuatroQueijos, "Quatro Queijos");
+        }
+
+        private void cbCalabresa_CheckedChanged(object sender, EventArgs e)
+        {
+            AttItemComanda(cbCalabresa, "Calabresa");
+        }
+
+        private void cbChocoMorango_CheckedChanged(object sender, EventArgs e)
+        {
+            AttItemComanda(cbChocoMorango, "Chocolate com Morango");
+        }
+
+        private void rdbBalcao_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdbBalcao.Checked)
+            {
+                isDelivery = false;
+                AtualizaComanda();
+            }
+        }
+
+        private void rdbDelevery_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdbDelevery.Checked)
+            {
+                isDelivery = true;
+                AtualizaComanda();
+            }
         }
     }
 }

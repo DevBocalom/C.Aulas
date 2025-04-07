@@ -82,6 +82,7 @@
             this.cbChocoMorango.TabIndex = 4;
             this.cbChocoMorango.Text = "Chocolate com Morango - 55,00";
             this.cbChocoMorango.UseVisualStyleBackColor = true;
+            this.cbChocoMorango.CheckedChanged += new System.EventHandler(this.cbChocoMorango_CheckedChanged);
             // 
             // cbCalabresa
             // 
@@ -93,6 +94,7 @@
             this.cbCalabresa.TabIndex = 3;
             this.cbCalabresa.Text = "Calabresa - 52,00";
             this.cbCalabresa.UseVisualStyleBackColor = true;
+            this.cbCalabresa.CheckedChanged += new System.EventHandler(this.cbCalabresa_CheckedChanged);
             // 
             // cbQuatroQueijos
             // 
@@ -104,6 +106,7 @@
             this.cbQuatroQueijos.TabIndex = 2;
             this.cbQuatroQueijos.Text = "Quatro Queijos - 60,00";
             this.cbQuatroQueijos.UseVisualStyleBackColor = true;
+            this.cbQuatroQueijos.CheckedChanged += new System.EventHandler(this.cbQuatroQueijos_CheckedChanged);
             // 
             // cbPortuguesa
             // 
@@ -115,6 +118,7 @@
             this.cbPortuguesa.TabIndex = 1;
             this.cbPortuguesa.Text = "Portuguesa - 55,00";
             this.cbPortuguesa.UseVisualStyleBackColor = true;
+            this.cbPortuguesa.CheckedChanged += new System.EventHandler(this.cbPortuguesa_CheckedChanged);
             // 
             // cbMussarela
             // 
@@ -151,6 +155,7 @@
             this.rdbDelevery.TabIndex = 1;
             this.rdbDelevery.Text = "Delivery - 5,00";
             this.rdbDelevery.UseVisualStyleBackColor = true;
+            this.rdbDelevery.CheckedChanged += new System.EventHandler(this.rdbDelevery_CheckedChanged);
             // 
             // rdbBalcao
             // 
@@ -164,11 +169,12 @@
             this.rdbBalcao.TabStop = true;
             this.rdbBalcao.Text = "Balcão";
             this.rdbBalcao.UseVisualStyleBackColor = true;
+            this.rdbBalcao.CheckedChanged += new System.EventHandler(this.rdbBalcao_CheckedChanged);
             // 
             // btnFinalizar
             // 
             this.btnFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFinalizar.Location = new System.Drawing.Point(241, 507);
+            this.btnFinalizar.Location = new System.Drawing.Point(444, 387);
             this.btnFinalizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(276, 49);
@@ -186,16 +192,16 @@
             this.lbComanda.BackColor = System.Drawing.SystemColors.Control;
             this.lbComanda.FormattingEnabled = true;
             this.lbComanda.ItemHeight = 16;
-            this.lbComanda.Location = new System.Drawing.Point(468, 89);
+            this.lbComanda.Location = new System.Drawing.Point(444, 89);
             this.lbComanda.Name = "lbComanda";
-            this.lbComanda.Size = new System.Drawing.Size(265, 372);
+            this.lbComanda.Size = new System.Drawing.Size(289, 244);
             this.lbComanda.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(760, 569);
+            this.ClientSize = new System.Drawing.Size(749, 489);
             this.Controls.Add(this.lbComanda);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.groupBox2);
