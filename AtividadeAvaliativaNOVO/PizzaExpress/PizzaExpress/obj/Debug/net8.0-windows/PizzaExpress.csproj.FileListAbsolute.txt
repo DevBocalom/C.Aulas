@@ -1,0 +1,17 @@
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\bin\Debug\net8.0-windows\PizzaExpress.exe
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\bin\Debug\net8.0-windows\PizzaExpress.deps.json
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\bin\Debug\net8.0-windows\PizzaExpress.runtimeconfig.json
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\bin\Debug\net8.0-windows\PizzaExpress.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\bin\Debug\net8.0-windows\PizzaExpress.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.Form1.resources
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.csproj.GenerateResource.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.AssemblyInfoInputs.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.AssemblyInfo.cs
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.csproj.CoreCompileInputs.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.sourcelink.json
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\refint\PizzaExpress.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\PizzaExpress.genruntimeconfig.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeAvaliativaNOVO\PizzaExpress\PizzaExpress\obj\Debug\net8.0-windows\ref\PizzaExpress.dll
