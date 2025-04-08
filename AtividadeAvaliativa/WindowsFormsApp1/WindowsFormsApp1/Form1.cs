@@ -131,7 +131,10 @@ namespace WindowsFormsApp1
 
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
-            calcularVenda();   
+            calcularVenda();
+            Pedido p = new Pedido();
+            p.attitens() = AttItemComanda(); 
+            Form1 f1 = new Form1();
         }
 
         private void cbMussarela_CheckedChanged(object sender, EventArgs e)
