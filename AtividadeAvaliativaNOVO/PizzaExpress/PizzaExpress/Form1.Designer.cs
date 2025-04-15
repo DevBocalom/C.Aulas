@@ -30,11 +30,11 @@
         {
             gpbSabores = new GroupBox();
             lblQuantidade = new Label();
-            numericUpDown7 = new NumericUpDown();
-            numericUpDown6 = new NumericUpDown();
-            numericUpDown5 = new NumericUpDown();
-            numericUpDown4 = new NumericUpDown();
-            numericUpDown3 = new NumericUpDown();
+            nudGuarana = new NumericUpDown();
+            nudCocaCola = new NumericUpDown();
+            nudChocolate = new NumericUpDown();
+            nudMarguerita = new NumericUpDown();
+            nudPortuguesa = new NumericUpDown();
             nudmMussarela = new NumericUpDown();
             nudCalabresa = new NumericUpDown();
             lblPreço = new Label();
@@ -57,11 +57,11 @@
             rdbBalcao = new RadioButton();
             btnFinalizar = new Button();
             gpbSabores.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudGuarana).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudCocaCola).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudChocolate).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudMarguerita).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudPortuguesa).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudmMussarela).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudCalabresa).BeginInit();
             gpbEntrega.SuspendLayout();
@@ -70,11 +70,11 @@
             // gpbSabores
             // 
             gpbSabores.Controls.Add(lblQuantidade);
-            gpbSabores.Controls.Add(numericUpDown7);
-            gpbSabores.Controls.Add(numericUpDown6);
-            gpbSabores.Controls.Add(numericUpDown5);
-            gpbSabores.Controls.Add(numericUpDown4);
-            gpbSabores.Controls.Add(numericUpDown3);
+            gpbSabores.Controls.Add(nudGuarana);
+            gpbSabores.Controls.Add(nudCocaCola);
+            gpbSabores.Controls.Add(nudChocolate);
+            gpbSabores.Controls.Add(nudMarguerita);
+            gpbSabores.Controls.Add(nudPortuguesa);
             gpbSabores.Controls.Add(nudmMussarela);
             gpbSabores.Controls.Add(nudCalabresa);
             gpbSabores.Controls.Add(lblPreço);
@@ -108,45 +108,45 @@
             lblQuantidade.TabIndex = 21;
             lblQuantidade.Text = "Quant.";
             // 
-            // numericUpDown7
+            // nudGuarana
             // 
-            numericUpDown7.Enabled = false;
-            numericUpDown7.Location = new Point(155, 227);
-            numericUpDown7.Name = "numericUpDown7";
-            numericUpDown7.Size = new Size(44, 27);
-            numericUpDown7.TabIndex = 20;
+            nudGuarana.Enabled = false;
+            nudGuarana.Location = new Point(155, 227);
+            nudGuarana.Name = "nudGuarana";
+            nudGuarana.Size = new Size(44, 27);
+            nudGuarana.TabIndex = 20;
             // 
-            // numericUpDown6
+            // nudCocaCola
             // 
-            numericUpDown6.Enabled = false;
-            numericUpDown6.Location = new Point(155, 194);
-            numericUpDown6.Name = "numericUpDown6";
-            numericUpDown6.Size = new Size(44, 27);
-            numericUpDown6.TabIndex = 19;
+            nudCocaCola.Enabled = false;
+            nudCocaCola.Location = new Point(155, 194);
+            nudCocaCola.Name = "nudCocaCola";
+            nudCocaCola.Size = new Size(44, 27);
+            nudCocaCola.TabIndex = 19;
             // 
-            // numericUpDown5
+            // nudChocolate
             // 
-            numericUpDown5.Enabled = false;
-            numericUpDown5.Location = new Point(155, 161);
-            numericUpDown5.Name = "numericUpDown5";
-            numericUpDown5.Size = new Size(44, 27);
-            numericUpDown5.TabIndex = 18;
+            nudChocolate.Enabled = false;
+            nudChocolate.Location = new Point(155, 161);
+            nudChocolate.Name = "nudChocolate";
+            nudChocolate.Size = new Size(44, 27);
+            nudChocolate.TabIndex = 18;
             // 
-            // numericUpDown4
+            // nudMarguerita
             // 
-            numericUpDown4.Enabled = false;
-            numericUpDown4.Location = new Point(155, 128);
-            numericUpDown4.Name = "numericUpDown4";
-            numericUpDown4.Size = new Size(44, 27);
-            numericUpDown4.TabIndex = 17;
+            nudMarguerita.Enabled = false;
+            nudMarguerita.Location = new Point(155, 128);
+            nudMarguerita.Name = "nudMarguerita";
+            nudMarguerita.Size = new Size(44, 27);
+            nudMarguerita.TabIndex = 17;
             // 
-            // numericUpDown3
+            // nudPortuguesa
             // 
-            numericUpDown3.Enabled = false;
-            numericUpDown3.Location = new Point(155, 95);
-            numericUpDown3.Name = "numericUpDown3";
-            numericUpDown3.Size = new Size(44, 27);
-            numericUpDown3.TabIndex = 16;
+            nudPortuguesa.Enabled = false;
+            nudPortuguesa.Location = new Point(155, 95);
+            nudPortuguesa.Name = "nudPortuguesa";
+            nudPortuguesa.Size = new Size(44, 27);
+            nudPortuguesa.TabIndex = 16;
             // 
             // nudmMussarela
             // 
@@ -256,6 +256,7 @@
             cbMussarela.TabIndex = 5;
             cbMussarela.Text = "Pizza Mussarela";
             cbMussarela.UseVisualStyleBackColor = true;
+            cbMussarela.CheckedChanged += cbMussarela_CheckedChanged;
             // 
             // cbGuarana
             // 
@@ -266,6 +267,7 @@
             cbGuarana.TabIndex = 4;
             cbGuarana.Text = "Guarana 2lt";
             cbGuarana.UseVisualStyleBackColor = true;
+            cbGuarana.CheckedChanged += cbGuarana_CheckedChanged;
             // 
             // cbCocaCola
             // 
@@ -276,16 +278,18 @@
             cbCocaCola.TabIndex = 3;
             cbCocaCola.Text = "Coca-Cola 2lt";
             cbCocaCola.UseVisualStyleBackColor = true;
+            cbCocaCola.CheckedChanged += cbCocaCola_CheckedChanged;
             // 
             // cbChocolate
             // 
             cbChocolate.AutoSize = true;
             cbChocolate.Location = new Point(6, 161);
             cbChocolate.Name = "cbChocolate";
-            cbChocolate.Size = new Size(129, 24);
+            cbChocolate.Size = new Size(136, 24);
             cbChocolate.TabIndex = 2;
-            cbChocolate.Text = "Pizza Choolate";
+            cbChocolate.Text = "Pizza Chocolate";
             cbChocolate.UseVisualStyleBackColor = true;
+            cbChocolate.CheckedChanged += cbChocolate_CheckedChanged;
             // 
             // cbMarguerita
             // 
@@ -297,6 +301,7 @@
             cbMarguerita.Text = "Pizza Marguerita";
             cbMarguerita.TextImageRelation = TextImageRelation.TextAboveImage;
             cbMarguerita.UseVisualStyleBackColor = true;
+            cbMarguerita.CheckedChanged += cbMarguerita_CheckedChanged;
             // 
             // cbPortuguesa
             // 
@@ -307,6 +312,7 @@
             cbPortuguesa.TabIndex = 0;
             cbPortuguesa.Text = "Pizza Portuguesa";
             cbPortuguesa.UseVisualStyleBackColor = true;
+            cbPortuguesa.CheckedChanged += cbPortuguesa_CheckedChanged;
             // 
             // gpbEntrega
             // 
@@ -365,11 +371,11 @@
             Text = "Pizza Express";
             gpbSabores.ResumeLayout(false);
             gpbSabores.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudGuarana).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudCocaCola).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudChocolate).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudMarguerita).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudPortuguesa).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudmMussarela).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudCalabresa).EndInit();
             gpbEntrega.ResumeLayout(false);
@@ -398,13 +404,13 @@
         private Label lblPortuguesa;
         private Label lblMussarela;
         private Label lblCalabresa;
-        private NumericUpDown numericUpDown6;
-        private NumericUpDown numericUpDown5;
-        private NumericUpDown numericUpDown4;
-        private NumericUpDown numericUpDown3;
+        private NumericUpDown nudCocaCola;
+        private NumericUpDown nudChocolate;
+        private NumericUpDown nudMarguerita;
+        private NumericUpDown nudPortuguesa;
         private NumericUpDown nudmMussarela;
         private NumericUpDown nudCalabresa;
-        private NumericUpDown numericUpDown7;
+        private NumericUpDown nudGuarana;
         private Label lblQuantidade;
         private Button btnFinalizar;
     }
