@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace CadastroApp01
 {
-    public partial class Form1: Form
+    public partial class Form1 : Form
     {
         List<Aluno> database = new List<Aluno>();
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -56,26 +56,80 @@ namespace CadastroApp01
             dgvAlunos.DataSource = database;
         }
 
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void atualizarAluno(DataGridViewCellEventArgs e)
         {
-            Aluno a = new Aluno();
-            a.Ra = txtRA.Text;
-            a.Nome = txtNome.Text;
-            a.Curso = txtCurso.Text;
+            if (e.RowIndex >= 0 && e.RowIndex < dgvAlunos.Rows.Count)
+            {
+                string ra = dgvAlunos.Rows[e.RowIndex].Cells[0].Value?.ToString();
+                string nome = dgvAlunos.Rows[e.RowIndex].Cells[1].Value?.ToString();
+                string curso = dgvAlunos.Rows[e.RowIndex].Cells[2].Value?.ToString();
 
-            addAluno(a);
+                txtRA.Text = ra;
+                txtNome.Text = nome;
+                txtCurso.Text = curso;
+
+                string raDigitado = txtRA.Text;
+
+                DialogResult resultado = MessageBox.Show(
+                $"RA {raDigitado} já cadastrado. Deseja editar os dados desse aluno?",
+                "RA já existente",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+                if (resultado == DialogResult.Yes)
+                {
+                    // Carrega os dados para edição nos TextBoxes
+                    txtNome.Text = nome;
+                    txtCurso.Text = curso;
+                    // Você pode também desabilitar o campo RA se quiser evitar mudanças no RA
+                    txtRA.Enabled = false;
+                    btnAtualizar.Enabled = true;
+                }
+                else
+                {
+                    txtRA.Clear();
+                    txtNome.Clear();
+                    txtCurso.Clear();
+                    return;
+                }
+            }
         }
 
-        private void dgvAlunos_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtRA.Text) ||
+                string.IsNullOrWhiteSpace(txtNome.Text) ||
+                string.IsNullOrWhiteSpace(txtCurso.Text))
+            {
+                MessageBox.Show("Preencha todos os campos!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            Aluno a = new Aluno
+            {
+                Ra = txtRA.Text,
+                Nome = txtNome.Text,
+                Curso = txtCurso.Text
+            };
+
+            if (database.Any(aluno => aluno.Ra == a.Ra))
+            {
+                atualizarAluno(e);
+            }
+
+            addAluno(a);
+            txtRA.Clear();
+            txtNome.Clear();
+            txtCurso.Clear();
+        }
+
+        private void dgvAlunos_CellClick(object sender,DataGridViewCellEventArgs e)
         {
             //MessageBox.Show($"Clicou na linha {e.ColumnIndex} e o RA: {ra}");
-            string ra = dgvAlunos.Rows[e.RowIndex].Cells[0].Value.ToString();
-            string nome = dgvAlunos.Rows[e.RowIndex].Cells[1].Value.ToString();
-            string curso = dgvAlunos.Rows[e.RowIndex].Cells[2].Value.ToString();
+            atualizarAluno(e);
+        }
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
 
-            txtRA.Text = ra;
-            txtNome.Text = nome;
-            txtCurso.Text = curso;
         }
     }
     public class Aluno
