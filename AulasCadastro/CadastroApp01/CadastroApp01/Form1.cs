@@ -113,7 +113,6 @@ namespace CadastroApp01
 
             if (database.Any(aluno => aluno.Ra == a.Ra))
             {
-                atualizarAluno(e);
             }
 
             addAluno(a);
@@ -122,7 +121,7 @@ namespace CadastroApp01
             txtCurso.Clear();
         }
 
-        private void dgvAlunos_CellClick(object sender,DataGridViewCellEventArgs e)
+        private void dgvAlunos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             //MessageBox.Show($"Clicou na linha {e.ColumnIndex} e o RA: {ra}");
             atualizarAluno(e);

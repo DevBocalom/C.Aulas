@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aulascadastro\\cadastroapp01\\cadastroapp01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\cadastroapp01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "CadastroApp01\\Form1.Designer.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAqwHAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T16:47:19.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T16:47:19.687Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "CadastroApp01\\Form1.cs",
               "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
               "RelativeToolTip": "CadastroApp01\\Form1.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAiwFQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAA7wHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T23:04:47.671Z",
               "EditorCaption": ""
