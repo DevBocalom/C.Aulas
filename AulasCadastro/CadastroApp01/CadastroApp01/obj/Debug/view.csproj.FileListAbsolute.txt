@@ -8,3 +8,10 @@ C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroAp
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\obj\Debug\CadastroApp01.exe
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\obj\Debug\CadastroApp01.pdb
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\obj\Debug\CadastroApp01.Form1.resources
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\bin\Debug\Entities.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\bin\Debug\Entities.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\obj\Debug\View.csproj.Up2Date
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\bin\Debug\Services.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\bin\Debug\Repository.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\bin\Debug\Services.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AulasCadastro\CadastroApp01\CadastroApp01\bin\Debug\Repository.pdb
