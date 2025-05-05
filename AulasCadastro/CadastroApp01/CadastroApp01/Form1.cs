@@ -1,5 +1,6 @@
 ﻿using Entities; //em cima do erro pode dar ctrl+space para importar o a classe correto (entidadde aluno)
 using Services;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

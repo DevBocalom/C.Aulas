@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aulascadastro\\cadastroapp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3007456-3099-4F92-AD5A-F6DEDBFE4080}|Services\\Services.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aulascadastro\\cadastroapp01\\services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3007456-3099-4F92-AD5A-F6DEDBFE4080}|Services\\Services.csproj|solutionrelative:services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56CD5FE4-DD10-40F2-989A-1D4027176E6C}|Repository\\Repository.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\repository\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56CD5FE4-DD10-40F2-989A-1D4027176E6C}|Repository\\Repository.csproj|solutionrelative:repository\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\cadastroapp01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3007456-3099-4F92-AD5A-F6DEDBFE4080}|Services\\Services.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3007456-3099-4F92-AD5A-F6DEDBFE4080}|Services\\Services.csproj|solutionrelative:services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6C8D5A0-3623-4ECF-8461-8D38FB6FF498}|Entities\\Entities.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\entities\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,81 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "CadastroApp01\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.Designer.cs",
-              "RelativeToolTip": "CadastroApp01\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T16:47:19.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
               "RelativeDocumentMoniker": "CadastroApp01\\Form1.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs [Design]*",
-              "RelativeToolTip": "CadastroApp01\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs [Design]",
+              "RelativeToolTip": "CadastroApp01\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T23:35:11.542Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
               "RelativeDocumentMoniker": "CadastroApp01\\Form1.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs*",
-              "RelativeToolTip": "CadastroApp01\\Form1.cs*",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFQAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
+              "RelativeToolTip": "CadastroApp01\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T23:04:47.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T23:04:47.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AlunoService.cs",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\Services\\AlunoService.cs",
               "RelativeDocumentMoniker": "Services\\AlunoService.cs",
               "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\Services\\AlunoService.cs",
               "RelativeToolTip": "Services\\AlunoService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwCkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:56:32.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T22:56:32.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AlunoRepository.cs",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\Repository\\AlunoRepository.cs",
               "RelativeDocumentMoniker": "Repository\\AlunoRepository.cs",
               "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\Repository\\AlunoRepository.cs",
               "RelativeToolTip": "Repository\\AlunoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:59:56.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T22:59:56.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Aluno.cs",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\Entities\\Aluno.cs",
               "RelativeDocumentMoniker": "Entities\\Aluno.cs",
               "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\Entities\\Aluno.cs",
               "RelativeToolTip": "Entities\\Aluno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T22:57:35.511Z"
             }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dgvAlunos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,7 +38,9 @@
             this.txtCurso = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.alunoRepositoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alunoRepositoryBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvAlunos
@@ -104,7 +107,7 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(183, 206);
+            this.btnSalvar.Location = new System.Drawing.Point(183, 216);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 7;
@@ -115,13 +118,17 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.Red;
-            this.btnDelete.Location = new System.Drawing.Point(305, 206);
+            this.btnDelete.Location = new System.Drawing.Point(305, 216);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 9;
             this.btnDelete.Text = "Deletar";
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // alunoRepositoryBindingSource
+            // 
+            this.alunoRepositoryBindingSource.DataSource = typeof(Repository.AlunoRepository);
             // 
             // Form1
             // 
@@ -140,6 +147,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alunoRepositoryBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,6 +164,7 @@
         private System.Windows.Forms.TextBox txtCurso;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.BindingSource alunoRepositoryBindingSource;
     }
 }
 

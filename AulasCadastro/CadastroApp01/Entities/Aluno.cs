@@ -10,9 +10,6 @@ namespace Entities
     {
         public string Ra { set; get; }
         public string Nome { set; get; }
-        public string Curso
-        {
-            set; get;
-        }
+        public string Curso { set; get; }
     }
 }
