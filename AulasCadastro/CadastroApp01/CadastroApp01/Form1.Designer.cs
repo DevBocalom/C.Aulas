@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.dgvAlunos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -38,9 +37,7 @@
             this.txtCurso = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.alunoRepositoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.alunoRepositoryBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvAlunos
@@ -126,10 +123,6 @@
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // alunoRepositoryBindingSource
-            // 
-            this.alunoRepositoryBindingSource.DataSource = typeof(Repository.AlunoRepository);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -146,8 +139,8 @@
             this.Controls.Add(this.dgvAlunos);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlunos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.alunoRepositoryBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,7 +157,6 @@
         private System.Windows.Forms.TextBox txtCurso;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.BindingSource alunoRepositoryBindingSource;
     }
 }
 

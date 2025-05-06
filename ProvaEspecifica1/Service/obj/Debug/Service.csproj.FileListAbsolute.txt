@@ -1,0 +1,11 @@
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\bin\Debug\Service.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\bin\Debug\Service.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\bin\Debug\Entities.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\bin\Debug\Repository.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\bin\Debug\Entities.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\bin\Debug\Repository.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\obj\Debug\Service.csproj.Up2Date
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\obj\Debug\Service.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\Service\obj\Debug\Service.pdb

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aulascadastro\\cadastroapp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\aulascadastro\\cadastroapp01\\cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAA571CE-26CF-4882-B09F-C983AF47220E}|CadastroApp01\\View.csproj|solutionrelative:cadastroapp01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56CD5FE4-DD10-40F2-989A-1D4027176E6C}|Repository\\Repository.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\repository\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
               "RelativeDocumentMoniker": "CadastroApp01\\Form1.cs",
@@ -46,15 +46,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
               "RelativeDocumentMoniker": "CadastroApp01\\Form1.cs",
               "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AulasCadastro\\CadastroApp01\\CadastroApp01\\Form1.cs",
               "RelativeToolTip": "CadastroApp01\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAASwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T23:04:47.671Z"
+              "WhenOpened": "2025-04-14T23:04:47.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

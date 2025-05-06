@@ -1,0 +1,17 @@
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\ProvaEspecifica1.exe.config
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\ProvaEspecifica1.exe
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\ProvaEspecifica1.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\ProvaEspecifica1.Form1.resources
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\ProvaEspecifica1.Properties.Resources.resources
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\ProvaEspecifica1.exe
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\ProvaEspecifica1.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\Entities.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\Service.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\Repository.dll
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\Entities.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\Service.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\bin\Debug\Repository.pdb
+C:\Users\visitantebtt\source\repos\ProvaEspecifica1\ProvaEspecifica1\obj\Debug\View.csproj.Up2Date
