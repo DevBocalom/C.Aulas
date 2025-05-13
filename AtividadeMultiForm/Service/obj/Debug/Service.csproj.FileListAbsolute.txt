@@ -1,0 +1,11 @@
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\bin\Debug\Service.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\bin\Debug\Service.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\bin\Debug\Entities.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\bin\Debug\Repository.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\bin\Debug\Entities.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\bin\Debug\Repository.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\obj\Debug\Service.csproj.Up2Date
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\obj\Debug\Service.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\Service\obj\Debug\Service.pdb

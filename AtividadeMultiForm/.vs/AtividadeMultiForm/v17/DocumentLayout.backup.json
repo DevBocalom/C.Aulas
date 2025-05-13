@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\atividademultiform\\formlistarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|solutionrelative:atividademultiform\\formlistarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\atividademultiform\\formlistarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|solutionrelative:atividademultiform\\formlistarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\atividademultiform\\atividademultiform\\formcrudprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|solutionrelative:atividademultiform\\formcrudprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\atividademultiform\\formcrudprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47A0275C-AA65-4073-8D9A-D1B47570DD94}|AtividadeMultiForm\\View.csproj|solutionrelative:atividademultiform\\formcrudprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4F4616-ACF1-42F5-8F9D-4AD7E4675326}|Service\\Service.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4F4616-ACF1-42F5-8F9D-4AD7E4675326}|Service\\Service.csproj|solutionrelative:service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77044016-7B76-4559-B803-F64BD751F7AB}|Repository\\Repository.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77044016-7B76-4559-B803-F64BD751F7AB}|Repository\\Repository.csproj|solutionrelative:repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCrudProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormCrudProdutos.cs",
+              "RelativeDocumentMoniker": "AtividadeMultiForm\\FormCrudProdutos.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormCrudProdutos.cs",
+              "RelativeToolTip": "AtividadeMultiForm\\FormCrudProdutos.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T00:09:21.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormListarProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormListarProdutos.cs",
+              "RelativeDocumentMoniker": "AtividadeMultiForm\\FormListarProdutos.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormListarProdutos.cs",
+              "RelativeToolTip": "AtividadeMultiForm\\FormListarProdutos.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAArwE8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:31:06.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\Service\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "Service\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\Service\\ProdutoService.cs",
+              "RelativeToolTip": "Service\\ProdutoService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:20:46.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\Repository\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\Repository\\ProdutoRepository.cs",
+              "RelativeToolTip": "Repository\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:20:01.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCrudProdutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormCrudProdutos.cs",
+              "RelativeDocumentMoniker": "AtividadeMultiForm\\FormCrudProdutos.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormCrudProdutos.cs [Design]",
+              "RelativeToolTip": "AtividadeMultiForm\\FormCrudProdutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:10:25.488Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormListarProdutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormListarProdutos.cs",
+              "RelativeDocumentMoniker": "AtividadeMultiForm\\FormListarProdutos.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\AtividadeMultiForm\\AtividadeMultiForm\\FormListarProdutos.cs [Design]",
+              "RelativeToolTip": "AtividadeMultiForm\\FormListarProdutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:02:00.307Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
