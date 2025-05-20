@@ -15,13 +15,27 @@ namespace AtividadeMultiForm
 {
     public partial class FormListarProdutos: Form
     {
-        ProdutoService produtoService = new ProdutoService();
+        // ========= Padrão singleton =========
+        private static FormListarProdutos instancia;
+        public static FormListarProdutos getInstancia()
+        {
+            if (instancia == null || instancia.IsDisposed)
+            {
+                instancia = new FormListarProdutos();
+            }
+            return instancia;
+        }
+        // ========= Padrão singleton 
+        public ProdutoService produtoService = new ProdutoService();
         public string idselecionado = "";
 
         public FormListarProdutos()
         {
             InitializeComponent();
             carregarDados();
+
+            // continução do padrão singleton
+            instancia = this;
         }
         public void carregarDados()
         {
@@ -32,7 +46,7 @@ namespace AtividadeMultiForm
         }
         private void btnNovo_Click(object sender, EventArgs e)
         {
-            FormCrudProdutos form = new FormCrudProdutos();
+            FormCrudProdutos form = new FormCrudProdutos(produtoService);
             form.ShowDialog();
         }
         private void btnExcluir_Click(object sender, EventArgs e)
@@ -71,7 +85,15 @@ namespace AtividadeMultiForm
         {
             var produto = (ProdutoEntities)dgvProdutos.CurrentRow.DataBoundItem;
 
-            FormCrudProdutos form = new FormCrudProdutos(produto);
+            FormCrudProdutos form = new FormCrudProdutos(produto, produtoService);
+            form.ShowDialog();
+        }
+
+        private void dgvProdutos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var produto = (ProdutoEntities)dgvProdutos.CurrentRow.DataBoundItem;
+
+            FormCrudProdutos form = new FormCrudProdutos(produto, produtoService);
             form.ShowDialog();
         }
     }

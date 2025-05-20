@@ -40,6 +40,7 @@ namespace Service
             {
                 throw new Exception("Valor inválido");
             }
+
             List<ProdutoEntities> produtos = produtorepository.getAll();
             for (int i = 0; i < produtos.Count; i++)
             {
@@ -49,6 +50,7 @@ namespace Service
                     return;
                 }
             }
+
             this.produtorepository.insert(p);
         }
         public void Update(ProdutoEntities p)

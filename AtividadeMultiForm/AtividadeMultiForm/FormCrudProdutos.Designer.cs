@@ -221,7 +221,7 @@
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.lblCódigo);
             this.Name = "FormCrudProdutos";
-            this.Text = "FormCrudProdutos";
+            this.Text = "Cadastro de Produtos";
             this.gbAtivo.ResumeLayout(false);
             this.gbAtivo.PerformLayout();
             this.ResumeLayout(false);

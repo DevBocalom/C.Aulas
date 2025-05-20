@@ -14,11 +14,12 @@ namespace AtividadeMultiForm
 {
     public partial class FormCrudProdutos : Form
     {
-        ProdutoService produtoService = new ProdutoService();
+        ProdutoService produtoService;
 
-        public FormCrudProdutos(ProdutoEntities p)
+        public FormCrudProdutos(ProdutoEntities p, ProdutoService produtoService)
         {
             InitializeComponent();
+            this.produtoService = produtoService;
             txtCodigo.Enabled = false;
             txtCodigo.Text = p.Id.ToString();
             txtDescricao.Text = p.Descricao.ToString();
@@ -34,9 +35,10 @@ namespace AtividadeMultiForm
                 rdbNao.Checked = true;
             }
         }
-        public FormCrudProdutos() // construtor padrão (para cadastro novo)
+        public FormCrudProdutos(ProdutoService produtoService) // construtor padrão (para cadastro novo)
         {
             InitializeComponent();
+            this.produtoService = produtoService;
         }
         private void btnSalvar_Click(object sender, EventArgs e)
         {
@@ -55,9 +57,10 @@ namespace AtividadeMultiForm
                 p.Ativo = false;
             }
 
-            produtoService.Insert(p);
-            FormListarProdutos form = new FormListarProdutos();
-            form.carregarDados();
+            // usa alunoService que foi injetado via dependencia
+            this.produtoService.Insert(p);
+
+            FormListarProdutos.getInstancia().carregarDados();
             this.Close();
         }
 
