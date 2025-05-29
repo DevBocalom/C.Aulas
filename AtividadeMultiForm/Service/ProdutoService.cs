@@ -10,8 +10,8 @@ namespace Service
 {
     public class ProdutoService
     {
-        ProdutoRepository produtorepository = new ProdutoRepository();
-
+        ProdutoRepositorySQL produtorepository = new ProdutoRepositorySQL();
+        
         public List<ProdutoEntities> GetAll()
         {
             List<ProdutoEntities> produtos = produtorepository.getAll();
@@ -20,10 +20,6 @@ namespace Service
 
         public void Insert(ProdutoEntities p)
         {
-            if (p.Id == null)
-            {
-                throw new Exception("Id inválido");
-            }
             if (p.Descricao == null || p.Descricao == "")
             {
                 throw new Exception("Descrição inválida");
@@ -60,11 +56,6 @@ namespace Service
         public void Delete(string Id)
         {
             this.produtorepository.delete(Id);
-        }
-        public ProdutoEntities GetById(string Id)
-        {
-            ProdutoEntities p = produtorepository.getById(Id);
-            return p;
         }
     }
 }

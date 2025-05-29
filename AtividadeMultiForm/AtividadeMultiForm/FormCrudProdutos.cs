@@ -20,7 +20,6 @@ namespace AtividadeMultiForm
         {
             InitializeComponent();
             this.produtoService = produtoService;
-            txtCodigo.Enabled = false;
             txtCodigo.Text = p.Id.ToString();
             txtDescricao.Text = p.Descricao.ToString();
             txtFornecedor.Text = p.Fornecedor.ToString();
