@@ -1,0 +1,6 @@
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\Entitties\bin\Debug\Entitties.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\Entitties\bin\Debug\Entitties.pdb
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\Entitties\obj\Debug\Entitties.csproj.AssemblyReference.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\Entitties\obj\Debug\Entitties.csproj.CoreCompileInputs.cache
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\Entitties\obj\Debug\Entitties.dll
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\Entitties\obj\Debug\Entitties.pdb

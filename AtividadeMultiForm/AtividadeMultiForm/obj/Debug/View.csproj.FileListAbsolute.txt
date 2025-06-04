@@ -44,3 +44,4 @@ C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\AtividadeMultiForm\
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\AtividadeMultiForm\bin\Debug\System.IO.Pipelines.xml
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\AtividadeMultiForm\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\AtividadeMultiForm\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\AtividadeMultiForm\AtividadeMultiForm\obj\Debug\AtividadeMultiForm.exe.config
