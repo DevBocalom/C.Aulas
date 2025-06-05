@@ -215,6 +215,8 @@
             // chkStatus
             // 
             this.chkStatus.AutoSize = true;
+            this.chkStatus.Checked = true;
+            this.chkStatus.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkStatus.Enabled = false;
             this.chkStatus.Location = new System.Drawing.Point(694, 103);
             this.chkStatus.Name = "chkStatus";
@@ -440,6 +442,7 @@
             this.ClientSize = new System.Drawing.Size(796, 380);
             this.Controls.Add(this.tabControl1);
             this.Name = "FormClientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormClientes";
             this.tabControl1.ResumeLayout(false);
             this.tbpManutencao.ResumeLayout(false);

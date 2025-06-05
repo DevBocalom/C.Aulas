@@ -23,5 +23,26 @@ namespace Service
             List<ProdutosEntities> repository = PR.GetById(id);
             return repository;
         }
+        public List<ProdutosGridDTO> GetByName(string nome)
+        {
+            List<ProdutosGridDTO> repository = PR.GetByName(nome);
+            return repository;
+        }
+        public void Insert(ProdutosEntities produto)
+        {
+            PR.Insert(produto);
+        }
+        public void Update(ProdutosEntities produto)
+        {
+            PR.Update(produto);
+        }
+        public void Delete(int id)
+        {
+            if (id <= 0)
+            {
+                throw new ArgumentException("ID inválido.");
+            }
+            PR.Delete(id);
+        }
     }
 }

@@ -58,6 +58,18 @@
     <Compile Include="FormClientes.Designer.cs">
       <DependentUpon>FormClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItens.Designer.cs">
+      <DependentUpon>FormItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNotas.Designer.cs">
+      <DependentUpon>FormNotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,9 @@
     <EmbeddedResource Include="FormInicial.resx">
       <DependentUpon>FormInicial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormNotas.resx">
+      <DependentUpon>FormNotas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormProdutos.resx">
       <DependentUpon>FormProdutos.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +99,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

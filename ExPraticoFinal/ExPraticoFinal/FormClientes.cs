@@ -31,15 +31,18 @@ namespace ExPraticoFinal
         public void pesquisarDados()
         {
             string nome = "";
+            string fantasia = "";
             if (txtRazaoPesq.Text.Trim() != "")
             {
                 nome = txtRazaoPesq.Text.Trim();
+                nome = "%" + nome + "%";
             }
             else if (txtFantasiaPesq.Text.Trim() != "")
             {
-                nome = txtFantasiaPesq.Text.Trim();
+                fantasia = txtFantasiaPesq.Text.Trim();
+                fantasia = "%" + fantasia + "%";
             }
-            List<ClientesGridDTO> clientes = clientesService.GetByName(nome);
+            List<ClientesGridDTO> clientes = clientesService.GetByName(nome, fantasia);
             dgvConsultaCli.DataSource = null;
             dgvConsultaCli.DataSource = clientes;
             dgvConsultaCli.Refresh();
@@ -130,7 +133,7 @@ namespace ExPraticoFinal
             txtCidade.Clear();
             txtUF.Clear();
             txtTelefone.Clear();
-            chkStatus.Checked = false;
+            chkStatus.Checked = true;
         }
         private void btnInserir_Click(object sender, EventArgs e)
         {
@@ -220,16 +223,26 @@ namespace ExPraticoFinal
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            if (idselecionado == 0)
+            int Verifica = clientesService.CountCli(idselecionado);
+
+            if (Verifica > 0)
             {
-                MessageBox.Show("Selecione um cliente para excluir.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Não é possível excluir este cliente, pois ele possui registros vinculados.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else
             {
-                clientesService.Delete(idselecionado);
-                limparCampos();
-                carregarDados();
+                if (idselecionado == 0)
+                {
+                    MessageBox.Show("Selecione um cliente para excluir.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else
+                {
+                    clientesService.Delete(idselecionado);
+                    limparCampos();
+                    carregarDados();
+                }
             }
         }
     }

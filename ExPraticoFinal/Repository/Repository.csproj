@@ -94,6 +94,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientesRepository.cs" />
+    <Compile Include="ItensRepository.cs" />
+    <Compile Include="NotasRepository.cs" />
     <Compile Include="ProdutosRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

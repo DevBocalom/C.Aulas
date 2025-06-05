@@ -46,3 +46,4 @@ C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\ExPraticoFinal\obj\Debu
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\ExPraticoFinal\obj\Debug\ExPraticoFinal.FormClientes.resources
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\ExPraticoFinal\obj\Debug\ExPraticoFinal.FormProdutos.resources
 C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\ExPraticoFinal\obj\Debug\View.csproj.Up2Date
+C:\Users\joseleonardo\ProjetosDev\C.Aulas\ExPraticoFinal\ExPraticoFinal\obj\Debug\ExPraticoFinal.FormNotas.resources

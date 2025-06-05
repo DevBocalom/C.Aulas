@@ -28,5 +28,11 @@ namespace ExPraticoFinal
             FormProdutos formProdutos = new FormProdutos();
             formProdutos.ShowDialog();
         }
+
+        private void btnNotas_Click(object sender, EventArgs e)
+        {
+            FormNotas formNotas = new FormNotas();
+            formNotas.ShowDialog();
+        }
     }
 }

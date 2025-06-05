@@ -21,12 +21,13 @@ namespace Repository
 
         string strGetDGV = "SELECT c.* FROM clientes c";
         string strGetById = "SELECT c.* FROM clientes c WHERE c.cli_codigo = @id";
-        string strGetByName = "SELECT c.* FROM clientes c WHERE c.cli_razao LIKE '% @nome %' OR c.cli_fantasia LIKE '% @nome %'";
+        string strGetByName = "SELECT c.* FROM clientes c WHERE c.cli_razao LIKE @nome OR c.cli_fantasia LIKE @fantasia";
         string strInsert = "INSERT INTO clientes (cli_razao, cli_fantasia, cli_cgc, cli_end, cli_num, cli_bairro, cli_cidade, cli_uf, cli_telefone, cli_status) " +
             "VALUES (@razao, @fantasia, @cgc, @endereco, @numero, @bairro, @cidade, @uf, @telefone, @status)";
         string strUpdate = "UPDATE clientes SET cli_razao = @razao, cli_fantasia = @fantasia, cli_cgc = @cgc, cli_end = @endereco, " +
             "cli_num = @numero, cli_bairro = @bairro, cli_cidade = @cidade, cli_uf = @uf, cli_telefone = @telefone, cli_status = @status WHERE cli_codigo = @id";
         string strDelete = "DELETE FROM clientes WHERE cli_codigo = @id";
+        string strContarClientes = "SELECT COUNT(*) FROM clientes c left join nf n on n.nf_cliente = c.cli_codigo WHERE n.nf_cliente = @ID";
 
         public ClientesRepository()
         {
@@ -57,12 +58,13 @@ namespace Repository
             this.connection.Close();
             return clientes;
         }
-        public List<ClientesGridDTO> GetByName(string nome)
+        public List<ClientesGridDTO> GetByName(string nome, string fantasia)
         {
             List<ClientesGridDTO> clientes = new List<ClientesGridDTO>();
             using (MySqlCommand cmd = new MySqlCommand(strGetByName, this.connection))
             {
                 cmd.Parameters.AddWithValue("@nome", nome);
+                cmd.Parameters.AddWithValue("@fantasia", fantasia);
                 this.connection.Open();
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
@@ -157,6 +159,18 @@ namespace Repository
                 cmd.ExecuteNonQuery();
             }
             this.connection.Close();
+        }
+        public int CountClientes(int id)
+        {
+            int count = 0;
+            using (MySqlCommand cmd = new MySqlCommand(strContarClientes, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@ID", id);
+                this.connection.Open();
+                count = Convert.ToInt32(cmd.ExecuteScalar());
+                this.connection.Close();
+            }
+            return count;
         }
     }
 }

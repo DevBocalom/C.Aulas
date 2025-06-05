@@ -61,6 +61,7 @@
             this.btnNotas.TabIndex = 2;
             this.btnNotas.Text = "Notas";
             this.btnNotas.UseVisualStyleBackColor = true;
+            this.btnNotas.Click += new System.EventHandler(this.btnNotas_Click);
             // 
             // FormInicial
             // 
@@ -71,6 +72,7 @@
             this.Controls.Add(this.btnProdutos);
             this.Controls.Add(this.btnClientes);
             this.Name = "FormInicial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 

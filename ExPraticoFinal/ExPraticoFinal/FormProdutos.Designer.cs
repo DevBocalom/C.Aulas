@@ -48,10 +48,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tbpConsulta = new System.Windows.Forms.TabPage();
             this.dgvProdutos = new System.Windows.Forms.DataGridView();
-            this.txtMarcaPesq = new System.Windows.Forms.TextBox();
             this.txtDescricaoPesq = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbpManutencao.SuspendLayout();
@@ -104,6 +102,7 @@
             this.btnSalvar.TabIndex = 31;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // txtValor
             // 
@@ -122,6 +121,7 @@
             this.btnCancelar.TabIndex = 30;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnExcluir
             // 
@@ -131,6 +131,7 @@
             this.btnExcluir.TabIndex = 29;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAlterar
             // 
@@ -140,6 +141,7 @@
             this.btnAlterar.TabIndex = 28;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnInserir
             // 
@@ -149,10 +151,13 @@
             this.btnInserir.TabIndex = 27;
             this.btnInserir.Text = "Inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // chkStatus
             // 
             this.chkStatus.AutoSize = true;
+            this.chkStatus.Checked = true;
+            this.chkStatus.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkStatus.Enabled = false;
             this.chkStatus.Location = new System.Drawing.Point(293, 84);
             this.chkStatus.Name = "chkStatus";
@@ -241,10 +246,8 @@
             // tbpConsulta
             // 
             this.tbpConsulta.Controls.Add(this.dgvProdutos);
-            this.tbpConsulta.Controls.Add(this.txtMarcaPesq);
             this.tbpConsulta.Controls.Add(this.txtDescricaoPesq);
             this.tbpConsulta.Controls.Add(this.label11);
-            this.tbpConsulta.Controls.Add(this.label12);
             this.tbpConsulta.Controls.Add(this.btnPesquisar);
             this.tbpConsulta.Location = new System.Drawing.Point(4, 25);
             this.tbpConsulta.Name = "tbpConsulta";
@@ -268,16 +271,9 @@
             this.dgvProdutos.TabIndex = 22;
             this.dgvProdutos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProdutos_CellDoubleClick);
             // 
-            // txtMarcaPesq
-            // 
-            this.txtMarcaPesq.Location = new System.Drawing.Point(84, 34);
-            this.txtMarcaPesq.Name = "txtMarcaPesq";
-            this.txtMarcaPesq.Size = new System.Drawing.Size(246, 22);
-            this.txtMarcaPesq.TabIndex = 19;
-            // 
             // txtDescricaoPesq
             // 
-            this.txtDescricaoPesq.Location = new System.Drawing.Point(84, 6);
+            this.txtDescricaoPesq.Location = new System.Drawing.Point(81, 20);
             this.txtDescricaoPesq.Name = "txtDescricaoPesq";
             this.txtDescricaoPesq.Size = new System.Drawing.Size(246, 22);
             this.txtDescricaoPesq.TabIndex = 18;
@@ -285,20 +281,11 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 9);
+            this.label11.Location = new System.Drawing.Point(6, 23);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(69, 16);
             this.label11.TabIndex = 20;
             this.label11.Text = "Descrição";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(33, 34);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(45, 16);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Marca";
             // 
             // btnPesquisar
             // 
@@ -317,6 +304,7 @@
             this.ClientSize = new System.Drawing.Size(556, 360);
             this.Controls.Add(this.tabControl1);
             this.Name = "FormProdutos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormProdutos";
             this.tabControl1.ResumeLayout(false);
             this.tbpManutencao.ResumeLayout(false);
@@ -333,10 +321,8 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tbpManutencao;
         private System.Windows.Forms.TabPage tbpConsulta;
-        private System.Windows.Forms.TextBox txtMarcaPesq;
         private System.Windows.Forms.TextBox txtDescricaoPesq;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.DataGridView dgvProdutos;
         private System.Windows.Forms.CheckBox chkStatus;
