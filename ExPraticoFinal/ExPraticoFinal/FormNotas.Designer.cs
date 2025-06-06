@@ -30,6 +30,7 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbpManutencao = new System.Windows.Forms.TabPage();
+            this.btnEmitir = new System.Windows.Forms.Button();
             this.txtTotalProduto = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.txtValorUn = new System.Windows.Forms.TextBox();
@@ -87,7 +88,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.dgvConsultaNotas = new System.Windows.Forms.DataGridView();
-            this.btnEmitir = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbpManutencao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvItens)).BeginInit();
@@ -145,6 +145,16 @@
             this.tbpManutencao.TabIndex = 0;
             this.tbpManutencao.Text = "Manutenção";
             this.tbpManutencao.UseVisualStyleBackColor = true;
+            // 
+            // btnEmitir
+            // 
+            this.btnEmitir.Enabled = false;
+            this.btnEmitir.Location = new System.Drawing.Point(446, 6);
+            this.btnEmitir.Name = "btnEmitir";
+            this.btnEmitir.Size = new System.Drawing.Size(82, 55);
+            this.btnEmitir.TabIndex = 55;
+            this.btnEmitir.Text = "Emitir  Nota";
+            this.btnEmitir.UseVisualStyleBackColor = true;
             // 
             // txtTotalProduto
             // 
@@ -689,16 +699,6 @@
             this.dgvConsultaNotas.Size = new System.Drawing.Size(865, 592);
             this.dgvConsultaNotas.TabIndex = 17;
             this.dgvConsultaNotas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsultaCli_CellDoubleClick);
-            // 
-            // btnEmitir
-            // 
-            this.btnEmitir.Enabled = false;
-            this.btnEmitir.Location = new System.Drawing.Point(446, 6);
-            this.btnEmitir.Name = "btnEmitir";
-            this.btnEmitir.Size = new System.Drawing.Size(82, 55);
-            this.btnEmitir.TabIndex = 55;
-            this.btnEmitir.Text = "Emitir  Nota";
-            this.btnEmitir.UseVisualStyleBackColor = true;
             // 
             // FormNotas
             // 

@@ -46,6 +46,7 @@
     <Compile Include="NotasService.cs" />
     <Compile Include="ProdutosService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entitties\Entitties.csproj">
