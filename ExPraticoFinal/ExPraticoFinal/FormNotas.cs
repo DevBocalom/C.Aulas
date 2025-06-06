@@ -22,6 +22,10 @@ namespace ExPraticoFinal
         public FormNotas()
         {
             InitializeComponent();
+            dtpDataDigitacao.Format = DateTimePickerFormat.Custom;
+            dtpDataDigitacao.CustomFormat = " ";
+            dtpDataEmissao.Format = DateTimePickerFormat.Custom;
+            dtpDataEmissao.CustomFormat = " ";
         }
         public void carregarDados()
         {
@@ -45,6 +49,8 @@ namespace ExPraticoFinal
         private void dgvConsultaCli_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             idselecionado = Convert.ToInt32(dgvConsultaNotas.Rows[e.RowIndex].Cells[0].Value);
+            dtpDataDigitacao.CustomFormat = "dd/MM/yyyy";
+            dtpDataEmissao.CustomFormat = "dd/MM/yyyy";
 
             tabControl1.SelectedTab = tbpManutencao;
 
@@ -70,6 +76,17 @@ namespace ExPraticoFinal
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
             carregarDados();
+        }
+
+        private void dtpDataDigitacao_DropDown(object sender, EventArgs e)
+        {
+            dtpDataDigitacao.Value = DateTime.Now;
+            dtpDataDigitacao.CustomFormat = "dd/MM/yyyy";
+        }
+        private void dtpDataEmissao_DropDown(object sender, EventArgs e)
+        {
+            dtpDataEmissao.Value = DateTime.Now;
+            dtpDataEmissao.CustomFormat = "dd/MM/yyyy";
         }
     }
 }

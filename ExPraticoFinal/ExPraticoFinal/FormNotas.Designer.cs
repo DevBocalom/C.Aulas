@@ -30,6 +30,16 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbpManutencao = new System.Windows.Forms.TabPage();
+            this.txtTotalProduto = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txtValorUn = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.txtQuantidade = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.cbProduto = new System.Windows.Forms.ComboBox();
+            this.txtCodProduto = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.txtInformacao = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -77,6 +87,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.dgvConsultaNotas = new System.Windows.Forms.DataGridView();
+            this.btnEmitir = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbpManutencao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvItens)).BeginInit();
@@ -97,6 +108,17 @@
             // 
             // tbpManutencao
             // 
+            this.tbpManutencao.Controls.Add(this.btnEmitir);
+            this.tbpManutencao.Controls.Add(this.txtTotalProduto);
+            this.tbpManutencao.Controls.Add(this.label23);
+            this.tbpManutencao.Controls.Add(this.txtValorUn);
+            this.tbpManutencao.Controls.Add(this.label22);
+            this.tbpManutencao.Controls.Add(this.txtQuantidade);
+            this.tbpManutencao.Controls.Add(this.label21);
+            this.tbpManutencao.Controls.Add(this.label20);
+            this.tbpManutencao.Controls.Add(this.cbProduto);
+            this.tbpManutencao.Controls.Add(this.txtCodProduto);
+            this.tbpManutencao.Controls.Add(this.label19);
             this.tbpManutencao.Controls.Add(this.txtInformacao);
             this.tbpManutencao.Controls.Add(this.label18);
             this.tbpManutencao.Controls.Add(this.label17);
@@ -124,6 +146,92 @@
             this.tbpManutencao.Text = "Manutenção";
             this.tbpManutencao.UseVisualStyleBackColor = true;
             // 
+            // txtTotalProduto
+            // 
+            this.txtTotalProduto.Enabled = false;
+            this.txtTotalProduto.Location = new System.Drawing.Point(770, 430);
+            this.txtTotalProduto.Name = "txtTotalProduto";
+            this.txtTotalProduto.Size = new System.Drawing.Size(95, 22);
+            this.txtTotalProduto.TabIndex = 53;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(726, 433);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(38, 16);
+            this.label23.TabIndex = 54;
+            this.label23.Text = "Total";
+            // 
+            // txtValorUn
+            // 
+            this.txtValorUn.Enabled = false;
+            this.txtValorUn.Location = new System.Drawing.Point(649, 430);
+            this.txtValorUn.Name = "txtValorUn";
+            this.txtValorUn.Size = new System.Drawing.Size(71, 22);
+            this.txtValorUn.TabIndex = 51;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(581, 434);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(62, 16);
+            this.label22.TabIndex = 52;
+            this.label22.Text = "Valor Un.";
+            // 
+            // txtQuantidade
+            // 
+            this.txtQuantidade.Enabled = false;
+            this.txtQuantidade.Location = new System.Drawing.Point(504, 431);
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.Size = new System.Drawing.Size(71, 22);
+            this.txtQuantidade.TabIndex = 49;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(421, 434);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(77, 16);
+            this.label21.TabIndex = 50;
+            this.label21.Text = "Quantidade";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(124, 434);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(54, 16);
+            this.label20.TabIndex = 48;
+            this.label20.Text = "Produto";
+            // 
+            // cbProduto
+            // 
+            this.cbProduto.Enabled = false;
+            this.cbProduto.FormattingEnabled = true;
+            this.cbProduto.Location = new System.Drawing.Point(184, 431);
+            this.cbProduto.Name = "cbProduto";
+            this.cbProduto.Size = new System.Drawing.Size(231, 24);
+            this.cbProduto.TabIndex = 47;
+            // 
+            // txtCodProduto
+            // 
+            this.txtCodProduto.Enabled = false;
+            this.txtCodProduto.Location = new System.Drawing.Point(57, 431);
+            this.txtCodProduto.Name = "txtCodProduto";
+            this.txtCodProduto.Size = new System.Drawing.Size(61, 22);
+            this.txtCodProduto.TabIndex = 44;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(0, 434);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(51, 16);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Código";
+            // 
             // txtInformacao
             // 
             this.txtInformacao.Location = new System.Drawing.Point(6, 330);
@@ -146,7 +254,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(565, 417);
+            this.label17.Location = new System.Drawing.Point(568, 630);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(118, 25);
             this.label17.TabIndex = 45;
@@ -166,7 +274,7 @@
             this.txtTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txtTotal.Location = new System.Drawing.Point(698, 416);
+            this.txtTotal.Location = new System.Drawing.Point(701, 629);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(170, 30);
@@ -184,7 +292,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(374, 416);
+            this.label15.Location = new System.Drawing.Point(391, 392);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(90, 29);
             this.label15.TabIndex = 42;
@@ -212,11 +320,13 @@
             // 
             this.dtpDataEmissao.Enabled = false;
             this.dtpDataEmissao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDataEmissao.ImeMode = System.Windows.Forms.ImeMode.Close;
             this.dtpDataEmissao.Location = new System.Drawing.Point(745, 48);
             this.dtpDataEmissao.Name = "dtpDataEmissao";
             this.dtpDataEmissao.Size = new System.Drawing.Size(109, 22);
             this.dtpDataEmissao.TabIndex = 39;
-            this.dtpDataEmissao.Value = new System.DateTime(2025, 6, 4, 16, 48, 33, 0);
+            this.dtpDataEmissao.Value = new System.DateTime(2025, 6, 4, 0, 0, 0, 0);
+            this.dtpDataEmissao.DropDown += new System.EventHandler(this.dtpDataEmissao_DropDown);
             // 
             // dtpDataDigitacao
             // 
@@ -227,13 +337,14 @@
             this.dtpDataDigitacao.Size = new System.Drawing.Size(109, 22);
             this.dtpDataDigitacao.TabIndex = 38;
             this.dtpDataDigitacao.Value = new System.DateTime(2025, 6, 4, 16, 48, 33, 0);
+            this.dtpDataDigitacao.DropDown += new System.EventHandler(this.dtpDataDigitacao_DropDown);
             // 
             // btnAddProdutos
             // 
             this.btnAddProdutos.Enabled = false;
-            this.btnAddProdutos.Location = new System.Drawing.Point(3, 419);
+            this.btnAddProdutos.Location = new System.Drawing.Point(736, 399);
             this.btnAddProdutos.Name = "btnAddProdutos";
-            this.btnAddProdutos.Size = new System.Drawing.Size(132, 23);
+            this.btnAddProdutos.Size = new System.Drawing.Size(133, 23);
             this.btnAddProdutos.TabIndex = 37;
             this.btnAddProdutos.Text = "Adicionar Produto";
             this.btnAddProdutos.UseVisualStyleBackColor = true;
@@ -290,11 +401,11 @@
             // 
             this.dgvItens.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvItens.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvItens.Location = new System.Drawing.Point(3, 448);
+            this.dgvItens.Location = new System.Drawing.Point(6, 459);
             this.dgvItens.Name = "dgvItens";
             this.dgvItens.RowHeadersWidth = 51;
             this.dgvItens.RowTemplate.Height = 24;
-            this.dgvItens.Size = new System.Drawing.Size(865, 211);
+            this.dgvItens.Size = new System.Drawing.Size(865, 168);
             this.dgvItens.TabIndex = 1;
             // 
             // groupBox1
@@ -579,6 +690,16 @@
             this.dgvConsultaNotas.TabIndex = 17;
             this.dgvConsultaNotas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsultaCli_CellDoubleClick);
             // 
+            // btnEmitir
+            // 
+            this.btnEmitir.Enabled = false;
+            this.btnEmitir.Location = new System.Drawing.Point(446, 6);
+            this.btnEmitir.Name = "btnEmitir";
+            this.btnEmitir.Size = new System.Drawing.Size(82, 55);
+            this.btnEmitir.TabIndex = 55;
+            this.btnEmitir.Text = "Emitir  Nota";
+            this.btnEmitir.UseVisualStyleBackColor = true;
+            // 
             // FormNotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -652,5 +773,16 @@
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.TextBox txtInformacao;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txtCodProduto;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txtTotalProduto;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox txtValorUn;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox txtQuantidade;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox cbProduto;
+        private System.Windows.Forms.Button btnEmitir;
     }
 }
