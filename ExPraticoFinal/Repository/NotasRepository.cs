@@ -32,6 +32,7 @@ namespace Repository
         string strEmitir = "UPDATE nf SET nf_emitida = @emitida WHERE nf_codigo = @id";
         string strAdicionarValor = "UPDATE nf SET nf_valor = (SELECT IFNULL(SUM(ite_total), 0) FROM itens_nf WHERE ite_nf = @nf)WHERE nf_codigo = @nf;";
         string strAttVaalor = "select nf_valor from nf where nf_codigo = @nf;";
+        string strGetbyNF = "SELECT n.*,c.* FROM nf n left join clientes c on c.cli_codigo = n.nf_cliente where n.nf_codigo like @NF";
         public NotasRepository()
         {
             this.connection = new MySqlConnection(strConnection);
@@ -205,6 +206,28 @@ namespace Repository
             }
             this.connection.Close();
             return valor;
+        }
+        public List<NotasGridDTO> GetByRazaoOrNota(int NF)
+        {
+            List<NotasGridDTO> notas = new List<NotasGridDTO>();
+            using (MySqlCommand cmd = new MySqlCommand(strGetbyNF, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@NF", NF);
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    NotasGridDTO n = new NotasGridDTO();
+                    n.Nota = Convert.ToInt32(reader["nf_codigo"]);
+                    n.IdCliente = Convert.ToInt32(reader["nf_cliente"]);
+                    n.Razao = reader["cli_razao"].ToString();
+                    n.CGC = reader["cli_cgc"].ToString();
+                    n.Valor = Convert.ToDecimal(reader["nf_valor"]);
+                    notas.Add(n);
+                }
+            }
+            this.connection.Close();
+            return notas;
         }
     }
 }

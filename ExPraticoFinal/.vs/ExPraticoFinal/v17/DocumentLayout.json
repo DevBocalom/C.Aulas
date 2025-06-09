@@ -3,84 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\expraticofinal\\formaddprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formaddprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\expraticofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\expraticofinal\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\expraticofinal\\formaddcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formaddcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\expraticofinal\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\expraticofinal\\formnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\expraticofinal\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\expraticofinal\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\expraticofinal\\formnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\expraticofinal\\formaddprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formaddprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\entitties\\produtosentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|solutionrelative:entitties\\produtosentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\entitties\\itensentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|solutionrelative:entitties\\itensentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\service\\clientesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\service\\clientesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|solutionrelative:service\\clientesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\service\\itensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|solutionrelative:service\\itensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\repository\\itensrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|solutionrelative:repository\\itensrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\service\\notasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|solutionrelative:service\\notasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\repository\\notasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|solutionrelative:repository\\notasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\repository\\produtosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|solutionrelative:repository\\produtosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\entitties\\notasentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|solutionrelative:entitties\\notasentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\repository\\clientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\repository\\clientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDFFB6F-2BA1-49AD-922D-277791B5CCA0}|Repository\\Repository.csproj|solutionrelative:repository\\clientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\entitties\\clientesentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{236701B4-6C55-4C82-9EF3-E48C6CA96837}|Entitties\\Entitties.csproj|solutionrelative:entitties\\clientesentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\service\\produtosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{562E8D9E-B93C-4B4A-B9D1-7523E3FC55CD}|Service\\Service.csproj|solutionrelative:service\\produtosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|c:\\users\\joseleonardo\\projetosdev\\c.aulas\\expraticofinal\\expraticofinal\\formaddcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4A0CB88-E47D-4FF9-891B-F8600E696803}|ExPraticoFinal\\View.csproj|solutionrelative:expraticofinal\\formaddcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,262 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItensEntities.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\ItensEntities.cs",
-              "RelativeDocumentMoniker": "Entitties\\ItensEntities.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\ItensEntities.cs",
-              "RelativeToolTip": "Entitties\\ItensEntities.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T21:52:40.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ItensRepository.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\ItensRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ItensRepository.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\ItensRepository.cs",
-              "RelativeToolTip": "Repository\\ItensRepository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAA3wEoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T21:51:40.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ItensService.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ItensService.cs",
-              "RelativeDocumentMoniker": "Service\\ItensService.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ItensService.cs",
-              "RelativeToolTip": "Service\\ItensService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T21:51:09.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormAddProd.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddProd.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormAddProd.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddProd.cs",
-              "RelativeToolTip": "ExPraticoFinal\\FormAddProd.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAUwMwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:46:53.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormAddProd.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddProd.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormAddProd.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddProd.cs [Design]",
-              "RelativeToolTip": "ExPraticoFinal\\FormAddProd.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\Program.cs",
+              "RelativeDocumentMoniker": "ExPraticoFinal\\Program.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\Program.cs",
+              "RelativeToolTip": "ExPraticoFinal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:47:19.015Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NotasEntities.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\NotasEntities.cs",
-              "RelativeDocumentMoniker": "Entitties\\NotasEntities.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\NotasEntities.cs",
-              "RelativeToolTip": "Entitties\\NotasEntities.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wBkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T19:57:11.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NotasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\NotasRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\NotasRepository.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\NotasRepository.cs",
-              "RelativeToolTip": "Repository\\NotasRepository.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAQwMYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T19:57:44.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NotasService.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\NotasService.cs",
-              "RelativeDocumentMoniker": "Service\\NotasService.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\NotasService.cs",
-              "RelativeToolTip": "Service\\NotasService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T19:58:34.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormNotas.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormNotas.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormNotas.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormNotas.cs",
-              "RelativeToolTip": "ExPraticoFinal\\FormNotas.cs",
-              "ViewState": "AgIAAEYBAAAAAAAAAAAAAFABAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T18:48:06.322Z",
+              "WhenOpened": "2025-06-09T17:56:02.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormNotas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormNotas.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormNotas.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormNotas.cs [Design]",
-              "RelativeToolTip": "ExPraticoFinal\\FormNotas.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:15:18.417Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProdutosEntities.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\ProdutosEntities.cs",
-              "RelativeDocumentMoniker": "Entitties\\ProdutosEntities.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\ProdutosEntities.cs",
-              "RelativeToolTip": "Entitties\\ProdutosEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:09:38.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProdutosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\ProdutosRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProdutosRepository.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\ProdutosRepository.cs",
-              "RelativeToolTip": "Repository\\ProdutosRepository.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:12:22.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProdutosService.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ProdutosService.cs",
-              "RelativeDocumentMoniker": "Service\\ProdutosService.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ProdutosService.cs",
-              "RelativeToolTip": "Service\\ProdutosService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:20:29.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormProdutos.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormProdutos.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormProdutos.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormProdutos.cs",
-              "RelativeToolTip": "ExPraticoFinal\\FormProdutos.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwE4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:49:17.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormProdutos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormProdutos.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormProdutos.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormProdutos.cs [Design]",
-              "RelativeToolTip": "ExPraticoFinal\\FormProdutos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:47:57.487Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ClientesEntities.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\ClientesEntities.cs",
-              "RelativeDocumentMoniker": "Entitties\\ClientesEntities.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Entitties\\ClientesEntities.cs",
-              "RelativeToolTip": "Entitties\\ClientesEntities.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:53:49.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "ClientesRepository.cs",
               "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\ClientesRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ClientesRepository.cs",
               "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Repository\\ClientesRepository.cs",
               "RelativeToolTip": "Repository\\ClientesRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwKUAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAADwvywAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:54:26.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClientesService.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ClientesService.cs",
-              "RelativeDocumentMoniker": "Service\\ClientesService.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ClientesService.cs",
-              "RelativeToolTip": "Service\\ClientesService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T00:28:30.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormClientes.cs",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormClientes.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormClientes.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormClientes.cs",
-              "RelativeToolTip": "ExPraticoFinal\\FormClientes.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAUwDoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T00:26:37.131Z",
+              "WhenOpened": "2025-06-09T17:51:45.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormClientes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormClientes.cs",
-              "RelativeDocumentMoniker": "ExPraticoFinal\\FormClientes.cs",
-              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormClientes.cs [Design]",
-              "RelativeToolTip": "ExPraticoFinal\\FormClientes.cs [Design]",
+              "Title": "ClientesService.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ClientesService.cs",
+              "RelativeDocumentMoniker": "Service\\ClientesService.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\Service\\ClientesService.cs",
+              "RelativeToolTip": "Service\\ClientesService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:42:26.919Z",
+              "WhenOpened": "2025-06-09T17:52:00.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAddCliente.cs",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddCliente.cs",
+              "RelativeDocumentMoniker": "ExPraticoFinal\\FormAddCliente.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddCliente.cs",
+              "RelativeToolTip": "ExPraticoFinal\\FormAddCliente.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:51:26.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAddCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddCliente.cs",
+              "RelativeDocumentMoniker": "ExPraticoFinal\\FormAddCliente.cs",
+              "ToolTip": "C:\\Users\\joseleonardo\\ProjetosDev\\C.Aulas\\ExPraticoFinal\\ExPraticoFinal\\FormAddCliente.cs [Design]",
+              "RelativeToolTip": "ExPraticoFinal\\FormAddCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:51:23.247Z",
               "EditorCaption": " [Design]"
             }
           ]

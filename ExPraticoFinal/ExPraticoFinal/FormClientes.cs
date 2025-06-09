@@ -31,18 +31,12 @@ namespace ExPraticoFinal
         public void pesquisarDados()
         {
             string nome = "";
-            string fantasia = "";
             if (txtRazaoPesq.Text.Trim() != "")
             {
                 nome = txtRazaoPesq.Text.Trim();
                 nome = "%" + nome + "%";
             }
-            else if (txtFantasiaPesq.Text.Trim() != "")
-            {
-                fantasia = txtFantasiaPesq.Text.Trim();
-                fantasia = "%" + fantasia + "%";
-            }
-            List<ClientesGridDTO> clientes = clientesService.GetByName(nome, fantasia);
+            List<ClientesGridDTO> clientes = clientesService.GetByName(nome);
             dgvConsultaCli.DataSource = null;
             dgvConsultaCli.DataSource = clientes;
             dgvConsultaCli.Refresh();

@@ -21,14 +21,14 @@ namespace Repository
 
         string strGetDGV = "SELECT c.* FROM clientes c";
         string strGetById = "SELECT c.* FROM clientes c WHERE c.cli_codigo = @id";
-        string strGetByName = "SELECT c.* FROM clientes c WHERE c.cli_razao LIKE @nome OR c.cli_fantasia LIKE @fantasia";
+        string strGetByName = "SELECT c.* FROM clientes c WHERE c.cli_razao LIKE @nome";
         string strInsert = "INSERT INTO clientes (cli_razao, cli_fantasia, cli_cgc, cli_end, cli_num, cli_bairro, cli_cidade, cli_uf, cli_telefone, cli_status) " +
             "VALUES (@razao, @fantasia, @cgc, @endereco, @numero, @bairro, @cidade, @uf, @telefone, @status)";
         string strUpdate = "UPDATE clientes SET cli_razao = @razao, cli_fantasia = @fantasia, cli_cgc = @cgc, cli_end = @endereco, " +
             "cli_num = @numero, cli_bairro = @bairro, cli_cidade = @cidade, cli_uf = @uf, cli_telefone = @telefone, cli_status = @status WHERE cli_codigo = @id";
         string strDelete = "DELETE FROM clientes WHERE cli_codigo = @id";
         string strContarClientes = "SELECT COUNT(*) FROM clientes c left join nf n on n.nf_cliente = c.cli_codigo WHERE n.nf_cliente = @ID";
-
+        string strGetDGVADD = "SELECT c.* FROM clientes c where c.cli_status = 1";
         public ClientesRepository()
         {
             this.connection = new MySqlConnection(strConnection);
@@ -43,7 +43,6 @@ namespace Repository
                 MySqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    //cada vez quer rodar o while, é uma linha da tabela
                     ClientesGridDTO c = new ClientesGridDTO();
 
                     c.Id = Convert.ToInt32(reader["cli_codigo"]);
@@ -58,13 +57,12 @@ namespace Repository
             this.connection.Close();
             return clientes;
         }
-        public List<ClientesGridDTO> GetByName(string nome, string fantasia)
+        public List<ClientesGridDTO> GetByName(string nome)
         {
             List<ClientesGridDTO> clientes = new List<ClientesGridDTO>();
             using (MySqlCommand cmd = new MySqlCommand(strGetByName, this.connection))
             {
-                cmd.Parameters.AddWithValue("@nome", nome);
-                cmd.Parameters.AddWithValue("@fantasia", fantasia);
+                cmd.Parameters.AddWithValue("@nome", "%" + nome + "%");
                 this.connection.Open();
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
@@ -171,6 +169,29 @@ namespace Repository
                 this.connection.Close();
             }
             return count;
+        }
+        public List<ClientesGridDTO> clientesDTOADD()
+        {
+            List<ClientesGridDTO> clientes = new List<ClientesGridDTO>();
+            using (MySqlCommand cmd = new MySqlCommand(strGetDGVADD, this.connection))
+            {
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    ClientesGridDTO c = new ClientesGridDTO();
+
+                    c.Id = Convert.ToInt32(reader["cli_codigo"]);
+                    c.Razao = reader["cli_razao"].ToString();
+                    c.Fantasia = reader["cli_fantasia"].ToString();
+                    c.CGC = reader["cli_cgc"].ToString();
+                    c.Status = Convert.ToBoolean(reader["cli_status"]);
+
+                    clientes.Add(c);
+                }
+            }
+            this.connection.Close();
+            return clientes;
         }
     }
 }

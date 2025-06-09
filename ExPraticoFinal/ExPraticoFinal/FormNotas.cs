@@ -36,6 +36,14 @@ namespace ExPraticoFinal
 
             instancia = this;
         }
+        public void pesquisa()
+        {
+            int Nf = Convert.ToInt32(txtNFPesq.Text);
+            List<NotasGridDTO> notas = notasService.Pesquisa( Nf);
+            dgvConsultaNotas.DataSource = null;
+            dgvConsultaNotas.DataSource = notas;
+            dgvConsultaNotas.Refresh();
+        }
         public void carregarDados()
         {
             List<NotasGridDTO> notas = notasService.NotasDTO();
@@ -146,7 +154,14 @@ namespace ExPraticoFinal
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            carregarDados();
+            if (string.IsNullOrWhiteSpace(txtNFPesq.Text))
+            {
+                carregarDados();
+            }
+            else
+            {
+                pesquisa();
+            }
         }
         private void btnAlterar_Click(object sender, EventArgs e)
         {

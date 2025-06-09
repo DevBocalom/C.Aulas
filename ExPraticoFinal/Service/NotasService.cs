@@ -54,5 +54,10 @@ namespace Service
         {
             return NR.AttValor(id);
         }
+        public List<NotasGridDTO> Pesquisa(int id)
+        {
+            List<NotasGridDTO> notas = NR.GetByRazaoOrNota(id);
+            return notas;
+        }
     }
 }

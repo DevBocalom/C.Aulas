@@ -17,9 +17,9 @@ namespace Service
             List<ClientesGridDTO> clientes = CR.clientesDTO();
             return clientes;
         }
-        public List<ClientesGridDTO> GetByName(string nome, string fantasia)
+        public List<ClientesGridDTO> GetByName(string nome)
         {
-            List<ClientesGridDTO> clientes = CR.GetByName(nome, fantasia);
+            List<ClientesGridDTO> clientes = CR.GetByName(nome);
             return clientes;
         }
         public List<ClientesEntities> GetById(int id)
@@ -46,6 +46,10 @@ namespace Service
         public int CountCli(int id)
         {
             return CR.CountClientes(id);
+        }
+        public List<ClientesGridDTO> GetDGVADD()
+        {
+            return CR.clientesDTOADD();
         }
     }
 }

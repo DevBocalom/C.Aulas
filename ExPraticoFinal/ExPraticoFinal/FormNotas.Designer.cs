@@ -73,9 +73,7 @@
             this.txtRazao = new System.Windows.Forms.TextBox();
             this.txtCGC = new System.Windows.Forms.TextBox();
             this.tbpConsulta = new System.Windows.Forms.TabPage();
-            this.txtFantasiaPesq = new System.Windows.Forms.TextBox();
-            this.txtRazaoPesq = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.txtNFPesq = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.dgvConsultaNotas = new System.Windows.Forms.DataGridView();
@@ -541,9 +539,7 @@
             // 
             // tbpConsulta
             // 
-            this.tbpConsulta.Controls.Add(this.txtFantasiaPesq);
-            this.tbpConsulta.Controls.Add(this.txtRazaoPesq);
-            this.tbpConsulta.Controls.Add(this.label11);
+            this.tbpConsulta.Controls.Add(this.txtNFPesq);
             this.tbpConsulta.Controls.Add(this.label12);
             this.tbpConsulta.Controls.Add(this.btnPesquisar);
             this.tbpConsulta.Controls.Add(this.dgvConsultaNotas);
@@ -555,33 +551,17 @@
             this.tbpConsulta.Text = "Consulta";
             this.tbpConsulta.UseVisualStyleBackColor = true;
             // 
-            // txtFantasiaPesq
+            // txtNFPesq
             // 
-            this.txtFantasiaPesq.Location = new System.Drawing.Point(274, 34);
-            this.txtFantasiaPesq.Name = "txtFantasiaPesq";
-            this.txtFantasiaPesq.Size = new System.Drawing.Size(98, 22);
-            this.txtFantasiaPesq.TabIndex = 20;
-            // 
-            // txtRazaoPesq
-            // 
-            this.txtRazaoPesq.Location = new System.Drawing.Point(274, 6);
-            this.txtRazaoPesq.Name = "txtRazaoPesq";
-            this.txtRazaoPesq.Size = new System.Drawing.Size(246, 22);
-            this.txtRazaoPesq.TabIndex = 19;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(186, 6);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(88, 16);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Razão Social";
+            this.txtNFPesq.Location = new System.Drawing.Point(402, 23);
+            this.txtNFPesq.Name = "txtNFPesq";
+            this.txtNFPesq.Size = new System.Drawing.Size(98, 22);
+            this.txtNFPesq.TabIndex = 20;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(198, 37);
+            this.label12.Location = new System.Drawing.Point(326, 26);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(70, 16);
             this.label12.TabIndex = 22;
@@ -589,7 +569,7 @@
             // 
             // btnPesquisar
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(667, 6);
+            this.btnPesquisar.Location = new System.Drawing.Point(544, 15);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(107, 38);
             this.btnPesquisar.TabIndex = 18;
@@ -664,9 +644,7 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnInserir;
-        private System.Windows.Forms.TextBox txtFantasiaPesq;
-        private System.Windows.Forms.TextBox txtRazaoPesq;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtNFPesq;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.DataGridView dgvConsultaNotas;

@@ -23,7 +23,7 @@ namespace ExPraticoFinal
         }
         public void carregarDados()
         {
-            List<ClientesGridDTO> clientes = clientesService.ClientesDTO();
+            List<ClientesGridDTO> clientes = clientesService.GetDGVADD();
             dgvConsultaCli.DataSource = null;
             dgvConsultaCli.DataSource = clientes;
             dgvConsultaCli.Refresh();
@@ -37,25 +37,20 @@ namespace ExPraticoFinal
         public void pesquisarDados()
         {
             string nome = "";
-            string fantasia = "";
             if (txtRazaoPesq.Text.Trim() != "")
             {
                 nome = txtRazaoPesq.Text.Trim();
                 nome = "%" + nome + "%";
             }
-            else if (txtFantasiaPesq.Text.Trim() != "")
-            {
-                fantasia = txtFantasiaPesq.Text.Trim();
-                fantasia = "%" + fantasia + "%";
-            }
-            List<ClientesGridDTO> clientes = clientesService.GetByName(nome, fantasia);
+            List<ClientesGridDTO> clientes = clientesService.GetByName(nome);
             dgvConsultaCli.DataSource = null;
             dgvConsultaCli.DataSource = clientes;
             dgvConsultaCli.Refresh();
         }
-        private void btnPesquisar_Click(object sender, EventArgs e)
+
+        private void btnPesquisar_Click_1(object sender, EventArgs e)
         {
-            if (txtRazaoPesq.Text.Trim() == "" && txtFantasiaPesq.Text.Trim() == "")
+            if (txtRazaoPesq.Text.Trim() == "")
             {
                 carregarDados();
             }
