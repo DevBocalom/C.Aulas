@@ -41,5 +41,15 @@ namespace Service
             ResumoEntities resumo = R.TotalVendido();
             return resumo;
         }
+        public ResumoEntities TotalProdutosInativos()
+        {
+            ResumoEntities resumo = R.TotalProdInativos();
+            return resumo;
+        }
+        public ResumoEntities TotalClientesInativos()
+        {
+            ResumoEntities resumo = R.TotalCliInativos();
+            return resumo;
+        }
     }
 }

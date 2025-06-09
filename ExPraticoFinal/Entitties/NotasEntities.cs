@@ -23,6 +23,7 @@ namespace Entitties
         public DateTime DataEmissao { get; set; }
         public DateTime DataDigitao { get; set; }
         public string Observacao { get; set; }
+        public bool Valida { get; set; }
     }
 
     public class NotasGridDTO

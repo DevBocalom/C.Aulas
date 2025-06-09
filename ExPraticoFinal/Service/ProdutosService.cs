@@ -44,5 +44,9 @@ namespace Service
             }
             PR.Delete(id);
         }
+        public int CountProdutos(int id)
+        {
+            return PR.CountProdutos(id);
+        }
     }
 }

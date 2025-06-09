@@ -22,9 +22,11 @@ namespace Repository
         string strCountNotas = "SELECT COUNT(nf_codigo) as TotalNotas FROM nf";
         string strCountProdutos = "SELECT COUNT(pro_codigo) as TotalProdutos FROM produtos";
         string strCountClientes = "SELECT COUNT(cli_codigo) as TotalClientes FROM clientes";
-        string strNotasEmitidas = "SELECT COUNT(nf_codigo) as NotasEmitidas FROM nf WHERE nf_dtemissao is not null";
-        string strNotasNaoEmitidas = "SELECT COUNT(nf_codigo) as NotasNaoEmitidas FROM nf WHERE nf_dtemissao is null";
-        string strTotalVendido = "SELECT SUM(nf_valor) as TotalVendido FROM nf WHERE nf_dtemissao is not null";
+        string strNotasEmitidas = "SELECT COUNT(nf_codigo) as NotasEmitidas FROM nf WHERE nf_emitida = '1'";
+        string strNotasNaoEmitidas = "SELECT COUNT(nf_codigo) as NotasNaoEmitidas FROM nf WHERE nf_emitida = '0'";
+        string strTotalVendido = "SELECT SUM(nf_valor) as TotalVendido FROM nf WHERE nf_emitida = '1'";
+        string strProdInativos = "SELECT COUNT(pro_codigo) as TotalProdutos FROM produtos WHERE pro_status = '0'";
+        string strCliInativos = "SELECT COUNT(cli_codigo) as TotalClientes FROM clientes WHERE cli_status = '0'";
 
         public ResumoRepository()
         {
@@ -116,6 +118,36 @@ namespace Repository
                 if (reader.Read())
                 {
                     resumo.TotaVendido = Convert.ToInt32(reader["TotalVendido"]);
+                }
+            }
+            this.connection.Close();
+            return resumo;
+        }
+        public ResumoEntities TotalProdInativos()
+        {
+            ResumoEntities resumo = new ResumoEntities();
+            using (MySqlCommand cmd = new MySqlCommand(strProdInativos, this.connection))
+            {
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    resumo.TotalProdutos = Convert.ToInt32(reader["TotalProdutos"]);
+                }
+            }
+            this.connection.Close();
+            return resumo;
+        }
+        public ResumoEntities TotalCliInativos()
+        {
+            ResumoEntities resumo = new ResumoEntities();
+            using (MySqlCommand cmd = new MySqlCommand(strCliInativos, this.connection))
+            {
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    resumo.TotalClientes = Convert.ToInt32(reader["TotalClientes"]);
                 }
             }
             this.connection.Close();

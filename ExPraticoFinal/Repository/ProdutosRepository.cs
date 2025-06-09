@@ -26,6 +26,7 @@ namespace Repository
             "VALUES (@descricao, @marca, @preco, @fornecedor, @status)";
         string strUpdate = "UPDATE produtos SET pro_descricao = @descricao, pro_marca = @marca, pro_valor = @preco, pro_fornecedor = @fornecedor, pro_status = @status WHERE pro_codigo = @id";
         string strDelete = "DELETE FROM produtos WHERE pro_codigo = @id";
+        string strContarProdutos = "SELECT COUNT(*) FROM produtos p left join itens_nf n on n.ite_prod = p.pro_codigo WHERE n.ite_prod = @ID";
 
         public ProdutosRepository()
         {
@@ -133,6 +134,18 @@ namespace Repository
                 cmd.ExecuteNonQuery();
             }
             this.connection.Close();
+        }
+        public int CountProdutos(int id)
+        {
+            int count = 0;
+            using (MySqlCommand cmd = new MySqlCommand(strContarProdutos, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@ID", id);
+                this.connection.Open();
+                count = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+            this.connection.Close();
+            return count;
         }
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAddProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddProd.Designer.cs">
+      <DependentUpon>FormAddProd.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,11 +64,17 @@
     <Compile Include="FormClientes.Designer.cs">
       <DependentUpon>FormClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormItens.cs">
+    <Compile Include="FormAddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormItens.Designer.cs">
-      <DependentUpon>FormItens.cs</DependentUpon>
+    <Compile Include="FormAddCliente.Designer.cs">
+      <DependentUpon>FormAddCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormNotas.cs">
       <SubType>Form</SubType>
@@ -78,11 +90,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAddCliente.resx">
+      <DependentUpon>FormAddCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddProd.resx">
+      <DependentUpon>FormAddProd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormClientes.resx">
       <DependentUpon>FormClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInicial.resx">
       <DependentUpon>FormInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNotas.resx">
       <DependentUpon>FormNotas.cs</DependentUpon>

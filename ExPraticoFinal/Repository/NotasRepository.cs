@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entitties;
+using Google.Protobuf;
 using MySql.Data.MySqlClient;
 
 namespace Repository
@@ -21,7 +22,16 @@ namespace Repository
 
         string strGetAll = "SELECT n.*,c.* FROM nf n left join clientes c on c.cli_codigo = n.nf_cliente";
         string strGetbyID = "SELECT n.*,c.* FROM nf n left join clientes c on c.cli_codigo = n.nf_cliente where n.nf_codigo  = @ID";
-
+        string strInsert = "INSERT INTO nf (nf_cliente, nf_dtdigitacao, nf_dtemissao, nf_valor, nf_informacoes, nf_emitida) " +
+            "VALUES (@cliente, @dtdigitacao, @dtemissao, @valor, @observacao, @emitida)";
+        string strUpdate = "UPDATE nf SET nf_cliente = @cliente, nf_dtdigitacao = @dtdigitacao, nf_dtemissao = @dtemissao, " +
+            "nf_valor = @valor, nf_informacoes = @observacao, nf_emitida = @emitida WHERE nf_codigo = @id";
+        string strDelete = "DELETE FROM nf  WHERE nf_codigo = @id";
+        string strValidaEmissao = "SELECT COUNT(nf_codigo) FROM nf WHERE nf_codigo = @ID AND nf_emitida = '1'";
+        string strUltimaNota = "SELECT MAX(nf_codigo) FROM nf";
+        string strEmitir = "UPDATE nf SET nf_emitida = @emitida WHERE nf_codigo = @id";
+        string strAdicionarValor = "UPDATE nf SET nf_valor = (SELECT IFNULL(SUM(ite_total), 0) FROM itens_nf WHERE ite_nf = @nf)WHERE nf_codigo = @nf;";
+        string strAttVaalor = "select nf_valor from nf where nf_codigo = @nf;";
         public NotasRepository()
         {
             this.connection = new MySqlConnection(strConnection);
@@ -53,6 +63,7 @@ namespace Repository
                     n.DataEmissao = Convert.ToDateTime(reader["nf_dtemissao"]);
                     n.Valor = Convert.ToDecimal(reader["nf_valor"]);
                     n.Observacao = reader["nf_informacoes"].ToString();
+                    n.Valida = Convert.ToBoolean(reader["nf_emitida"]);
                     notas.Add(n);
                 }
             }
@@ -79,6 +90,121 @@ namespace Repository
             }
             this.connection.Close();
             return notas;
+        }
+        public void Delete(int id)
+        {
+            using (MySqlCommand cmd = new MySqlCommand(strDelete, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+                this.connection.Open();
+                cmd.ExecuteNonQuery();
+            }
+            this.connection.Close();
+        }
+        public List<NotasEntities> Valida(int id)
+        {
+            List<NotasEntities> notas = new List<NotasEntities>();
+            using (MySqlCommand cmd = new MySqlCommand(strValidaEmissao, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@ID", id);
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    int count = Convert.ToInt32(reader["COUNT(nf_codigo)"]);
+                    if (count > 0)
+                    {
+                        NotasEntities n = new NotasEntities();
+                        n.Nota = count;
+                        notas.Add(n);
+                    }
+                }
+            }
+            this.connection.Close();
+            return notas;
+        }
+        public void Insert(NotasEntities notas)
+        {
+            using (MySqlCommand cmd = new MySqlCommand(strInsert, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@cliente", notas.IdCliente);
+                cmd.Parameters.AddWithValue("@dtdigitacao", notas.DataDigitao);
+                cmd.Parameters.AddWithValue("@dtemissao", notas.DataEmissao);
+                cmd.Parameters.AddWithValue("@valor", notas.Valor);
+                cmd.Parameters.AddWithValue("@observacao", notas.Observacao);
+                cmd.Parameters.AddWithValue("@emitida", notas.Valida);
+                this.connection.Open();
+                cmd.ExecuteNonQuery();
+            }
+            this.connection.Close();
+        }
+        public void Update(NotasEntities notas)
+        {
+            using (MySqlCommand cmd = new MySqlCommand(strUpdate, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@cliente", notas.IdCliente);
+                cmd.Parameters.AddWithValue("@dtdigitacao", notas.DataDigitao);
+                cmd.Parameters.AddWithValue("@dtemissao", notas.DataEmissao);
+                cmd.Parameters.AddWithValue("@valor", notas.Valor);
+                cmd.Parameters.AddWithValue("@observacao", notas.Observacao);
+                cmd.Parameters.AddWithValue("@id", notas.Nota);
+                cmd.Parameters.AddWithValue("@emitida", notas.Valida);
+                this.connection.Open();
+                cmd.ExecuteNonQuery();
+            }
+            this.connection.Close();
+        }
+        public int UltimaNota()
+        {
+            int nota = 0;
+            using (MySqlCommand cmd = new MySqlCommand(strUltimaNota, this.connection))
+            {
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    nota = Convert.ToInt32(reader["MAX(nf_codigo)"]);
+                }
+            }
+            this.connection.Close();
+            return nota;
+        }
+        public void Emitir(int id, bool emitida)
+        {
+            using (MySqlCommand cmd = new MySqlCommand(strEmitir, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Parameters.AddWithValue("@emitida", emitida);
+                this.connection.Open();
+                cmd.ExecuteNonQuery();
+            }
+            this.connection.Close();
+        }
+        public void AdicionarValor(int nf)
+        {
+            using (MySqlCommand cmd = new MySqlCommand(strAdicionarValor, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@nf", nf);
+                this.connection.Open();
+                cmd.ExecuteNonQuery();
+            }
+            this.connection.Close();
+        }
+        public decimal AttValor(int nf)
+        {
+            decimal valor = 0;
+            using (MySqlCommand cmd = new MySqlCommand(strAttVaalor, this.connection))
+            {
+                cmd.Parameters.AddWithValue("@nf", nf);
+                this.connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    valor = Convert.ToDecimal(reader["nf_valor"]);
+                }
+            }
+            this.connection.Close();
+            return valor;
         }
     }
 }

@@ -30,17 +30,8 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbpManutencao = new System.Windows.Forms.TabPage();
+            this.chkEmitida = new System.Windows.Forms.CheckBox();
             this.btnEmitir = new System.Windows.Forms.Button();
-            this.txtTotalProduto = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.txtValorUn = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.txtQuantidade = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.cbProduto = new System.Windows.Forms.ComboBox();
-            this.txtCodProduto = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
             this.txtInformacao = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -108,17 +99,8 @@
             // 
             // tbpManutencao
             // 
+            this.tbpManutencao.Controls.Add(this.chkEmitida);
             this.tbpManutencao.Controls.Add(this.btnEmitir);
-            this.tbpManutencao.Controls.Add(this.txtTotalProduto);
-            this.tbpManutencao.Controls.Add(this.label23);
-            this.tbpManutencao.Controls.Add(this.txtValorUn);
-            this.tbpManutencao.Controls.Add(this.label22);
-            this.tbpManutencao.Controls.Add(this.txtQuantidade);
-            this.tbpManutencao.Controls.Add(this.label21);
-            this.tbpManutencao.Controls.Add(this.label20);
-            this.tbpManutencao.Controls.Add(this.cbProduto);
-            this.tbpManutencao.Controls.Add(this.txtCodProduto);
-            this.tbpManutencao.Controls.Add(this.label19);
             this.tbpManutencao.Controls.Add(this.txtInformacao);
             this.tbpManutencao.Controls.Add(this.label18);
             this.tbpManutencao.Controls.Add(this.label17);
@@ -146,6 +128,17 @@
             this.tbpManutencao.Text = "Manutenção";
             this.tbpManutencao.UseVisualStyleBackColor = true;
             // 
+            // chkEmitida
+            // 
+            this.chkEmitida.AutoSize = true;
+            this.chkEmitida.Enabled = false;
+            this.chkEmitida.Location = new System.Drawing.Point(745, 76);
+            this.chkEmitida.Name = "chkEmitida";
+            this.chkEmitida.Size = new System.Drawing.Size(74, 20);
+            this.chkEmitida.TabIndex = 56;
+            this.chkEmitida.Text = "Emitida";
+            this.chkEmitida.UseVisualStyleBackColor = true;
+            // 
             // btnEmitir
             // 
             this.btnEmitir.Enabled = false;
@@ -155,92 +148,7 @@
             this.btnEmitir.TabIndex = 55;
             this.btnEmitir.Text = "Emitir  Nota";
             this.btnEmitir.UseVisualStyleBackColor = true;
-            // 
-            // txtTotalProduto
-            // 
-            this.txtTotalProduto.Enabled = false;
-            this.txtTotalProduto.Location = new System.Drawing.Point(770, 430);
-            this.txtTotalProduto.Name = "txtTotalProduto";
-            this.txtTotalProduto.Size = new System.Drawing.Size(95, 22);
-            this.txtTotalProduto.TabIndex = 53;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(726, 433);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(38, 16);
-            this.label23.TabIndex = 54;
-            this.label23.Text = "Total";
-            // 
-            // txtValorUn
-            // 
-            this.txtValorUn.Enabled = false;
-            this.txtValorUn.Location = new System.Drawing.Point(649, 430);
-            this.txtValorUn.Name = "txtValorUn";
-            this.txtValorUn.Size = new System.Drawing.Size(71, 22);
-            this.txtValorUn.TabIndex = 51;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(581, 434);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(62, 16);
-            this.label22.TabIndex = 52;
-            this.label22.Text = "Valor Un.";
-            // 
-            // txtQuantidade
-            // 
-            this.txtQuantidade.Enabled = false;
-            this.txtQuantidade.Location = new System.Drawing.Point(504, 431);
-            this.txtQuantidade.Name = "txtQuantidade";
-            this.txtQuantidade.Size = new System.Drawing.Size(71, 22);
-            this.txtQuantidade.TabIndex = 49;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(421, 434);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(77, 16);
-            this.label21.TabIndex = 50;
-            this.label21.Text = "Quantidade";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(124, 434);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(54, 16);
-            this.label20.TabIndex = 48;
-            this.label20.Text = "Produto";
-            // 
-            // cbProduto
-            // 
-            this.cbProduto.Enabled = false;
-            this.cbProduto.FormattingEnabled = true;
-            this.cbProduto.Location = new System.Drawing.Point(184, 431);
-            this.cbProduto.Name = "cbProduto";
-            this.cbProduto.Size = new System.Drawing.Size(231, 24);
-            this.cbProduto.TabIndex = 47;
-            // 
-            // txtCodProduto
-            // 
-            this.txtCodProduto.Enabled = false;
-            this.txtCodProduto.Location = new System.Drawing.Point(57, 431);
-            this.txtCodProduto.Name = "txtCodProduto";
-            this.txtCodProduto.Size = new System.Drawing.Size(61, 22);
-            this.txtCodProduto.TabIndex = 44;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(0, 434);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(51, 16);
-            this.label19.TabIndex = 44;
-            this.label19.Text = "Código";
+            this.btnEmitir.Click += new System.EventHandler(this.btnEmitir_Click);
             // 
             // txtInformacao
             // 
@@ -311,11 +219,11 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(634, 53);
+            this.label14.Location = new System.Drawing.Point(600, 53);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(92, 16);
+            this.label14.Size = new System.Drawing.Size(126, 16);
             this.label14.TabIndex = 41;
-            this.label14.Text = "Data Emissão";
+            this.label14.Text = "Data Prev. Emissão";
             // 
             // label13
             // 
@@ -336,7 +244,6 @@
             this.dtpDataEmissao.Size = new System.Drawing.Size(109, 22);
             this.dtpDataEmissao.TabIndex = 39;
             this.dtpDataEmissao.Value = new System.DateTime(2025, 6, 4, 0, 0, 0, 0);
-            this.dtpDataEmissao.DropDown += new System.EventHandler(this.dtpDataEmissao_DropDown);
             // 
             // dtpDataDigitacao
             // 
@@ -347,17 +254,16 @@
             this.dtpDataDigitacao.Size = new System.Drawing.Size(109, 22);
             this.dtpDataDigitacao.TabIndex = 38;
             this.dtpDataDigitacao.Value = new System.DateTime(2025, 6, 4, 16, 48, 33, 0);
-            this.dtpDataDigitacao.DropDown += new System.EventHandler(this.dtpDataDigitacao_DropDown);
             // 
             // btnAddProdutos
             // 
-            this.btnAddProdutos.Enabled = false;
             this.btnAddProdutos.Location = new System.Drawing.Point(736, 399);
             this.btnAddProdutos.Name = "btnAddProdutos";
             this.btnAddProdutos.Size = new System.Drawing.Size(133, 23);
             this.btnAddProdutos.TabIndex = 37;
             this.btnAddProdutos.Text = "Adicionar Produto";
             this.btnAddProdutos.UseVisualStyleBackColor = true;
+            this.btnAddProdutos.Click += new System.EventHandler(this.btnAddProdutos_Click);
             // 
             // btnSalvar
             // 
@@ -368,6 +274,7 @@
             this.btnSalvar.TabIndex = 36;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnCancelar
             // 
@@ -378,6 +285,7 @@
             this.btnCancelar.TabIndex = 35;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnExcluir
             // 
@@ -387,6 +295,7 @@
             this.btnExcluir.TabIndex = 34;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAlterar
             // 
@@ -396,6 +305,7 @@
             this.btnAlterar.TabIndex = 33;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnInserir
             // 
@@ -411,11 +321,11 @@
             // 
             this.dgvItens.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvItens.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvItens.Location = new System.Drawing.Point(6, 459);
+            this.dgvItens.Location = new System.Drawing.Point(6, 428);
             this.dgvItens.Name = "dgvItens";
             this.dgvItens.RowHeadersWidth = 51;
             this.dgvItens.RowTemplate.Height = 24;
-            this.dgvItens.Size = new System.Drawing.Size(865, 168);
+            this.dgvItens.Size = new System.Drawing.Size(865, 199);
             this.dgvItens.TabIndex = 1;
             // 
             // groupBox1
@@ -451,12 +361,13 @@
             // btnAddCliente
             // 
             this.btnAddCliente.Enabled = false;
-            this.btnAddCliente.Location = new System.Drawing.Point(128, 30);
+            this.btnAddCliente.Location = new System.Drawing.Point(131, 26);
             this.btnAddCliente.Name = "btnAddCliente";
             this.btnAddCliente.Size = new System.Drawing.Size(27, 25);
             this.btnAddCliente.TabIndex = 43;
             this.btnAddCliente.Text = "+";
             this.btnAddCliente.UseVisualStyleBackColor = true;
+            this.btnAddCliente.Click += new System.EventHandler(this.btnAddCliente_Click);
             // 
             // label10
             // 
@@ -571,11 +482,11 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Enabled = false;
-            this.txtCodigo.Location = new System.Drawing.Point(61, 30);
+            this.txtCodigo.Location = new System.Drawing.Point(64, 27);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(61, 22);
             this.txtCodigo.TabIndex = 26;
+            this.txtCodigo.TextChanged += new System.EventHandler(this.txtCodigo_TextChanged);
             // 
             // txtTelefone
             // 
@@ -748,7 +659,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvItens;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnExcluir;
@@ -768,21 +678,13 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtNF;
-        private System.Windows.Forms.Button btnAddCliente;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.TextBox txtInformacao;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox txtCodProduto;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox txtTotalProduto;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox txtValorUn;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox txtQuantidade;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox cbProduto;
         private System.Windows.Forms.Button btnEmitir;
+        private System.Windows.Forms.CheckBox chkEmitida;
+        private System.Windows.Forms.Button btnAddCliente;
+        public System.Windows.Forms.TextBox txtCodigo;
+        public System.Windows.Forms.TextBox txtTotal;
     }
 }

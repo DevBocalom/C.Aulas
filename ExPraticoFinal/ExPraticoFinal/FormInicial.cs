@@ -50,6 +50,8 @@ namespace ExPraticoFinal
             ResumoEntities NotasE = resumoService.NotasEmitidas();
             ResumoEntities NotasNE = resumoService.NotasNaoEmitidas();
             ResumoEntities TotalV = resumoService.TotalVendido();
+            ResumoEntities TotalPI = resumoService.TotalProdutosInativos();
+            ResumoEntities TotalCI = resumoService.TotalClientesInativos();
             treeView1.ExpandAll();
 
             lstResumoSistema.Items.Clear();
@@ -59,6 +61,8 @@ namespace ExPraticoFinal
             lstResumoSistema.Items.Add(new ListViewItem(new string[] { "Notas Emitidas", NotasE.NotasEmitidas.ToString() }));
             lstResumoSistema.Items.Add(new ListViewItem(new string[] { "Notas Não Emitidas", NotasNE.NotasNaoEmitidas.ToString() }));
             lstResumoSistema.Items.Add(new ListViewItem(new string[] { "Total Vendido", TotalV.TotaVendido.ToString("C2")}));
+            lstResumoSistema.Items.Add(new ListViewItem(new string[] { "Produtos Inativos", TotalPI.TotalProdutos.ToString() }));
+            lstResumoSistema.Items.Add(new ListViewItem(new string[] { "Clientes Inativos", TotalCI.TotalClientes.ToString() }));
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)

@@ -88,6 +88,7 @@ namespace ExPraticoFinal
 
         private void dgvProdutos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            BloquearCampos();
             idselecionado = Convert.ToInt32(dgvProdutos.Rows[e.RowIndex].Cells[0].Value);
 
             tabControl1.SelectedTab = tbpManutencao;
@@ -119,6 +120,14 @@ namespace ExPraticoFinal
             if (idselecionado != 0)
             {
                 BloquearCampos();
+                List<ProdutosEntities> produto = produtosService.GetById(idselecionado);
+
+                txtCodigo.Text = produto[0].Id.ToString();
+                txtDescricao.Text = produto[0].Descricao;
+                txtMarca.Text = produto[0].Marca;
+                txtValor.Text = produto[0].Valor.ToString("F2");
+                txtFornecedor.Text = produto[0].Fornecedor;
+                chkStatus.Checked = produto[0].Status;
             }
             else
             {
@@ -130,23 +139,33 @@ namespace ExPraticoFinal
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            if (idselecionado == 0)
+            int Verifica = produtosService.CountProdutos(idselecionado);
+            if (Verifica > 0)
             {
-                MessageBox.Show("Selecione um produto para excluir.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Não é possível excluir este produto, pois ele está vinculado a uma nota fiscal.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else
             {
-                produtosService.Delete(idselecionado);
-                CarregarDados();
-                LimparCampos();
-                idselecionado = 0;
+
+                if (idselecionado == 0)
+                {
+                    MessageBox.Show("Selecione um produto para excluir.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else
+                {
+                    produtosService.Delete(idselecionado);
+                    CarregarDados();
+                    LimparCampos();
+                    idselecionado = 0;
+                }
             }
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if(txtDescricao.Text.Trim() == "" || txtMarca.Text.Trim() == "" || txtValor.Text.Trim() == "" || txtFornecedor.Text.Trim() == "")
+            if (txtDescricao.Text.Trim() == "" || txtMarca.Text.Trim() == "" || txtValor.Text.Trim() == "" || txtFornecedor.Text.Trim() == "")
             {
                 MessageBox.Show("Preencha todos os campos obrigatórios.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;

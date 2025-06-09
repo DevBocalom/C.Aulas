@@ -64,24 +64,23 @@ namespace ExPraticoFinal
         }
         private void dgvConsultaCli_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            bloquearCampos();
             idselecionado = Convert.ToInt32(dgvConsultaCli.Rows[e.RowIndex].Cells[0].Value);
-            if (idselecionado > 0)
-            {
-                ClientesEntities cliente = clientesService.GetById(idselecionado).FirstOrDefault();
-                tabControl1.SelectedTab = tbpManutencao;
 
-                txtCodigo.Text = cliente.Id.ToString();
-                txtRazao.Text = cliente.Razao;
-                txtFantasia.Text = cliente.Fantasia;
-                txtCGC.Text = cliente.CGC;
-                txtLogradouro.Text = cliente.Endereco;
-                txtNumero.Text = cliente.Numero.ToString();
-                txtBairro.Text = cliente.Bairro;
-                txtCidade.Text = cliente.Cidade;
-                txtUF.Text = cliente.UF;
-                txtTelefone.Text = cliente.Telefone;
-                chkStatus.Checked = cliente.Status;
-            }
+            ClientesEntities cliente = clientesService.GetById(idselecionado).FirstOrDefault();
+            tabControl1.SelectedTab = tbpManutencao;
+
+            txtCodigo.Text = cliente.Id.ToString();
+            txtRazao.Text = cliente.Razao;
+            txtFantasia.Text = cliente.Fantasia;
+            txtCGC.Text = cliente.CGC;
+            txtLogradouro.Text = cliente.Endereco;
+            txtNumero.Text = cliente.Numero.ToString();
+            txtBairro.Text = cliente.Bairro;
+            txtCidade.Text = cliente.Cidade;
+            txtUF.Text = cliente.UF;
+            txtTelefone.Text = cliente.Telefone;
+            chkStatus.Checked = cliente.Status;
         }
         public void liberarCampos()
         {
@@ -147,6 +146,19 @@ namespace ExPraticoFinal
             if (idselecionado != 0)
             {
                 bloquearCampos();
+                ClientesEntities cliente = clientesService.GetById(idselecionado).FirstOrDefault();
+
+                txtCodigo.Text = cliente.Id.ToString();
+                txtRazao.Text = cliente.Razao;
+                txtFantasia.Text = cliente.Fantasia;
+                txtCGC.Text = cliente.CGC;
+                txtLogradouro.Text = cliente.Endereco;
+                txtNumero.Text = cliente.Numero.ToString();
+                txtBairro.Text = cliente.Bairro;
+                txtCidade.Text = cliente.Cidade;
+                txtUF.Text = cliente.UF;
+                txtTelefone.Text = cliente.Telefone;
+                chkStatus.Checked = cliente.Status;
             }
             else
             {
@@ -163,7 +175,8 @@ namespace ExPraticoFinal
             {
                 MessageBox.Show("Todos os campos são obrigatórios.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-            }else
+            }
+            else
             {
                 ClientesEntities c = new ClientesEntities();
                 if (idselecionado != 0)
