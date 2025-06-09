@@ -599,7 +599,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "FormNotas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormNotas";
+            this.Text = "Cadastro de Notas";
             this.tabControl1.ResumeLayout(false);
             this.tbpManutencao.ResumeLayout(false);
             this.tbpManutencao.PerformLayout();

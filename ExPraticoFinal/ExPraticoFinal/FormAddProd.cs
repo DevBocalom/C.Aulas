@@ -72,17 +72,6 @@ namespace ExPraticoFinal
             dgvProdutos.DataSource = produtos;
             dgvProdutos.Refresh();
         }
-        private void btnPesquisar_Click(object sender, EventArgs e)
-        {
-            if (txtDescricaoPesq.Text.Trim() == "")
-            {
-                CarregarDados();
-            }
-            else
-            {
-                PesquisaGrid();
-            }
-        }
 
         private void dgvProdutos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -270,6 +259,18 @@ namespace ExPraticoFinal
                 CarregarItens();
                 LimparCampos();
                 BloquearCampos();
+            }
+        }
+
+        private void btnPesquisar_Click_1(object sender, EventArgs e)
+        {
+            if (txtDescricaoPesq.Text.Trim() == "")
+            {
+                CarregarDados();
+            }
+            else
+            {
+                PesquisaGrid();
             }
         }
     }

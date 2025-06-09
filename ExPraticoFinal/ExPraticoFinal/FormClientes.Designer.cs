@@ -58,10 +58,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tbpConsulta = new System.Windows.Forms.TabPage();
-            this.txtFantasiaPesq = new System.Windows.Forms.TextBox();
             this.txtRazaoPesq = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.dgvConsultaCli = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
@@ -364,10 +362,8 @@
             // 
             // tbpConsulta
             // 
-            this.tbpConsulta.Controls.Add(this.txtFantasiaPesq);
             this.tbpConsulta.Controls.Add(this.txtRazaoPesq);
             this.tbpConsulta.Controls.Add(this.label11);
-            this.tbpConsulta.Controls.Add(this.label12);
             this.tbpConsulta.Controls.Add(this.btnPesquisar);
             this.tbpConsulta.Controls.Add(this.dgvConsultaCli);
             this.tbpConsulta.Location = new System.Drawing.Point(4, 25);
@@ -378,16 +374,9 @@
             this.tbpConsulta.Text = "Consulta";
             this.tbpConsulta.UseVisualStyleBackColor = true;
             // 
-            // txtFantasiaPesq
-            // 
-            this.txtFantasiaPesq.Location = new System.Drawing.Point(251, 45);
-            this.txtFantasiaPesq.Name = "txtFantasiaPesq";
-            this.txtFantasiaPesq.Size = new System.Drawing.Size(246, 22);
-            this.txtFantasiaPesq.TabIndex = 14;
-            // 
             // txtRazaoPesq
             // 
-            this.txtRazaoPesq.Location = new System.Drawing.Point(251, 17);
+            this.txtRazaoPesq.Location = new System.Drawing.Point(257, 28);
             this.txtRazaoPesq.Name = "txtRazaoPesq";
             this.txtRazaoPesq.Size = new System.Drawing.Size(246, 22);
             this.txtRazaoPesq.TabIndex = 13;
@@ -395,20 +384,11 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(163, 17);
+            this.label11.Location = new System.Drawing.Point(169, 28);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(88, 16);
             this.label11.TabIndex = 15;
             this.label11.Text = "Razão Social";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(146, 45);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(99, 16);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Nome Fantasia";
             // 
             // btnPesquisar
             // 
@@ -443,7 +423,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "FormClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormClientes";
+            this.Text = "Cadastro de Clientes";
             this.tabControl1.ResumeLayout(false);
             this.tbpManutencao.ResumeLayout(false);
             this.tbpManutencao.PerformLayout();
@@ -490,9 +470,7 @@
         private System.Windows.Forms.CheckBox chkStatus;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtBairro;
-        private System.Windows.Forms.TextBox txtFantasiaPesq;
         private System.Windows.Forms.TextBox txtRazaoPesq;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
     }
 }

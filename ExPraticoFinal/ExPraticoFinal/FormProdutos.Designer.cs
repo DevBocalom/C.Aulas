@@ -305,7 +305,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "FormProdutos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormProdutos";
+            this.Text = "Cadastro de Produtos";
             this.tabControl1.ResumeLayout(false);
             this.tbpManutencao.ResumeLayout(false);
             this.tbpManutencao.PerformLayout();

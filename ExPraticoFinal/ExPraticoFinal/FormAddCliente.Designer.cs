@@ -86,7 +86,7 @@
             this.Controls.Add(this.dgvConsultaCli);
             this.Name = "FormAddCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormItens";
+            this.Text = "Adicionar Cliente";
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultaCli)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

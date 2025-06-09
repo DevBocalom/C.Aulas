@@ -43,7 +43,7 @@ namespace ExPraticoFinal
         }
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            if (txtRazaoPesq.Text.Trim() == "" && txtFantasiaPesq.Text.Trim() == "")
+            if (txtRazaoPesq.Text.Trim() == "")
             {
                 carregarDados();
             }
